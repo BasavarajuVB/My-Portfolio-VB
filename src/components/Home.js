@@ -283,7 +283,7 @@ const Home = () => {
           </TechStack>
           <ButtonContainer>
             <Button 
-              href=""
+              href="https://drive.google.com/file/d/1SF7gC-dd__QEVv7SRKWfzJEE28mape0U/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               primary
