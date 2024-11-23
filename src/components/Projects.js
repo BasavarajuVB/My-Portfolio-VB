@@ -158,7 +158,7 @@ const projectCategories = {
       },
     {
       name: "Personal Notes Manager",
-      deployedLink: "https://nrs.ccbp.tech/",
+      deployedLink: "https://personal-notes-manager-eta.vercel.app/",
       githubLink: "https://github.com/NalagamdinniRaju/Persoanl-Notes-Manager.git",
       image: "https://img.freepik.com/free-vector/appointment-booking-with-man-smartphone_23-2148559015.jpg?",
       description: "A full-stack note-taking application with real-time updates, search functionality, and category management.",
