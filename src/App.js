@@ -15,14 +15,24 @@ const Container = styled.div`
   color: #fff;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 `;
 
+// Navigation Pulse Animation
+const logoPulse = keyframes`
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+`;
+
+// Navigation Styles
 const Nav = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: ${({ scrolled }) => (scrolled ? 'rgba(0, 0, 0, 0.9)' : 'rgba(0, 0, 0, 0.9)')};
+  background-color: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(10px);
   z-index: 1000;
   box-shadow: ${({ scrolled }) => (scrolled ? '0 4px 10px rgba(0, 0, 0, 0.2)' : 'none')};
@@ -36,11 +46,10 @@ const NavWrapper = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   
-`;
-
-const logoPulse = keyframes`
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
+  @media (max-width: 768px) {
+    padding: 1rem 0.5rem;
+    width: 100%;
+  }
 `;
 
 const Logo = styled.a`
@@ -54,6 +63,10 @@ const Logo = styled.a`
   
   &:hover {
     color: #08b1a1;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
   }
 `;
 
@@ -106,6 +119,7 @@ const MenuIcon = styled.div`
 
   @media (max-width: 768px) {
     display: block;
+    margin-right:30px;
   }
 `;
 
@@ -113,7 +127,7 @@ const MobileMenu = styled.div`
   position: fixed;
   top: 0;
   right: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-  width: 60%;
+  width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.95);
   transition: right 0.3s ease-in-out;
@@ -127,6 +141,8 @@ const MobileMenu = styled.div`
 const MobileNavLink = styled(NavLink)`
   font-size: 1.2rem;
   margin: 1rem 0;
+  text-align: center;
+  width: 100%;
 `;
 
 const CloseIcon = styled.div`
@@ -142,8 +158,16 @@ const Section = styled.section`
   padding: 5rem 1rem;
   margin-top: 4rem;
   scroll-margin-top: 4rem;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  @media (max-width: 768px) {
+    padding: 3rem 0.5rem;
+  }
 `;
 
+// Main App Component
 const App = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -168,46 +192,46 @@ const App = () => {
 
   return (
     <Container>
-      <Nav scrolled={scrolled}>
-        <NavWrapper>
-          <Logo href="#home">NRS</Logo>
-          <NavLinks>
-            <NavLink href="#home">Home</NavLink>
-            <NavLink href="#education">Education</NavLink>
-            <NavLink href="#experience">Experience</NavLink>
-            <NavLink href="#projects">Projects</NavLink>
-            <NavLink href="#skills">Skills</NavLink>
-            <NavLink href="#why-hire-me">Why Hire Me?</NavLink>
-            <NavLink href="#contact">Contact</NavLink>
-          </NavLinks>
-          <MenuIcon onClick={toggleMobileMenu}>
-            <FaBars />
-          </MenuIcon>
-        </NavWrapper>
-      </Nav>
+    <Nav scrolled={scrolled}>
+      <NavWrapper>
+        <Logo href="#home">NRS</Logo>
+        <NavLinks>
+          <NavLink href="#home">Home</NavLink>
+          <NavLink href="#education">Education</NavLink>
+          <NavLink href="#experience">Experience</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#why-hire-me">Why Hire Me?</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
+        </NavLinks>
+        <MenuIcon onClick={toggleMobileMenu}>
+          <FaBars />
+        </MenuIcon>
+      </NavWrapper>
+    </Nav>
 
-      <MobileMenu isOpen={mobileMenuOpen}>
-        <CloseIcon onClick={closeMobileMenu}>
-          <FaTimes />
-        </CloseIcon>
-        <MobileNavLink href="#home" onClick={closeMobileMenu}>Home</MobileNavLink>
-        <MobileNavLink href="#education" onClick={closeMobileMenu}>Education</MobileNavLink>
-        <MobileNavLink href="#experience" onClick={closeMobileMenu}>Experience</MobileNavLink>
-        <MobileNavLink href="#projects" onClick={closeMobileMenu}>Projects</MobileNavLink>
-        <MobileNavLink href="#skills" onClick={closeMobileMenu}>Skills</MobileNavLink>
-        <MobileNavLink href="#why-hire-me" onClick={closeMobileMenu}>Why Hire Me?</MobileNavLink>
-        <MobileNavLink href="#contact" onClick={closeMobileMenu}>Contact</MobileNavLink>
-      </MobileMenu>
+    <MobileMenu isOpen={mobileMenuOpen}>
+      <CloseIcon onClick={closeMobileMenu}>
+        <FaTimes />
+      </CloseIcon>
+      <MobileNavLink href="#home" onClick={closeMobileMenu}>Home</MobileNavLink>
+      <MobileNavLink href="#education" onClick={closeMobileMenu}>Education</MobileNavLink>
+      <MobileNavLink href="#experience" onClick={closeMobileMenu}>Experience</MobileNavLink>
+      <MobileNavLink href="#projects" onClick={closeMobileMenu}>Projects</MobileNavLink>
+      <MobileNavLink href="#skills" onClick={closeMobileMenu}>Skills</MobileNavLink>
+      <MobileNavLink href="#why-hire-me" onClick={closeMobileMenu}>Why Hire Me?</MobileNavLink>
+      <MobileNavLink href="#contact" onClick={closeMobileMenu}>Contact</MobileNavLink>
+    </MobileMenu>
 
-      <Section id="home"><Home /></Section>
-      <Section id="education"><Education /></Section>
-      <Section id="experience"><Experience /></Section>
-      <Section id="projects"><Projects /></Section>
-      <Section id="skills"><Skills /></Section>
-      <Section id="why-hire-me"><WhyHireMe /></Section>
-      <Section id="contact"><Contact /></Section>
-    </Container>
-  );
+    <Section id="home"><Home /></Section>
+    <Section id="education"><Education /></Section>
+    <Section id="experience"><Experience /></Section>
+    <Section id="projects"><Projects /></Section>
+    <Section id="skills"><Skills /></Section>
+    <Section id="why-hire-me"><WhyHireMe /></Section>
+    <Section id="contact"><Contact /></Section>
+  </Container>
+);
 };
 
 export default App;

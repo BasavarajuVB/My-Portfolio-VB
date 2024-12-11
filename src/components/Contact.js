@@ -22,6 +22,8 @@ const Container = styled.div`
 
   @media (max-width: 768px) {
     padding: 2rem 1rem;
+
+    padding-right:30px;
   }
 `;
 
@@ -56,6 +58,7 @@ const FormContainer = styled.div`
 
   @media (min-width: 769px) {
     flex-direction: row;
+    margin-right:20px;
   }
 `;
 

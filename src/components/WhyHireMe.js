@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { FaCode,FaBrain, FaUsers, FaLightbulb, FaRocket, FaDatabase, FaPuzzlePiece, FaChartLine, FaShieldAlt } from 'react-icons/fa';
 
@@ -17,6 +17,7 @@ const reasons = [
     text: "Experienced in implementing machine learning solutions and integrating AI-powered features into applications"
   }
 ];
+
 const fadeInUp = keyframes`
   from {
     opacity: 0;
@@ -33,6 +34,11 @@ const Container = styled.section`
   margin: 0 auto;
   padding: 4rem 2rem;
   background-color: transparent;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+    margin-right:60px;
+  }
 `;
 
 const Title = styled.h2`
@@ -53,6 +59,15 @@ const Title = styled.h2`
     height: 4px;
     background: linear-gradient(90deg, transparent, #64ffda, transparent);
   }
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+    &::after {
+      width: 80px;
+    }
+  }
 `;
 
 const Grid = styled.div`
@@ -60,6 +75,16 @@ const Grid = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 2rem;
   padding: 1rem;
+
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
 `;
 
 const ReasonCard = styled.div`
@@ -90,12 +115,23 @@ const ReasonCard = styled.div`
     background: #64ffda;
     opacity: 0.5;
   }
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 const IconWrapper = styled.div`
   font-size: 2rem;
   color: #64ffda;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 const ReasonTitle = styled.h3`
@@ -103,48 +139,39 @@ const ReasonTitle = styled.h3`
   font-weight: 600;
   color: #64ffda;
   margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+  }
 `;
 
 const ReasonText = styled.p`
   font-size: 1rem;
   color: #8892b0;
   line-height: 1.8;
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
 `;
 
 const WhyHireMe = () => {
   return (
-    // <Container>
-    //   <Title>Why Hire Me?</Title>
-    //   <ReasonsList>
-    //     {reasons.map((reason, index) => (
-    //       <ReasonItem key={index} index={index}>
-    //         <ReasonContent>
-    //           <IconWrapper>
-    //             <reason.icon />
-    //           </IconWrapper>
-    //           <TextContent>
-    //             <ReasonTitle>{reason.title}</ReasonTitle>
-    //             <ReasonText>{reason.text}</ReasonText>
-    //           </TextContent>
-    //         </ReasonContent>
-    //       </ReasonItem>
-    //     ))}
-    //   </ReasonsList>
-    // </Container>
     <Container>
-    <Title>Why Hire Me?</Title>
-    <Grid>
-      {reasons.map((reason, index) => (
-        <ReasonCard key={index} index={index}>
-          <IconWrapper>
-            <reason.icon />
-          </IconWrapper>
-          <ReasonTitle>{reason.title}</ReasonTitle>
-          <ReasonText>{reason.text}</ReasonText>
-        </ReasonCard>
-      ))}
-    </Grid>
-  </Container>
+      <Title>Why Hire Me?</Title>
+      <Grid>
+        {reasons.map((reason, index) => (
+          <ReasonCard key={index} index={index}>
+            <IconWrapper>
+              <reason.icon />
+            </IconWrapper>
+            <ReasonTitle>{reason.title}</ReasonTitle>
+            <ReasonText>{reason.text}</ReasonText>
+          </ReasonCard>
+        ))}
+      </Grid>
+    </Container>
   );
 };
 

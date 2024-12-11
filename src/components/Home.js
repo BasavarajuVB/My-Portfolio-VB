@@ -1,8 +1,7 @@
+
 import React, { useEffect, useState } from 'react';
 import { FaArrowRight, FaCode, FaServer } from 'react-icons/fa';
 import styled, { keyframes } from 'styled-components';
-
-
 
 const float = keyframes`
   0% { transform: translateY(0px) }
@@ -30,7 +29,6 @@ const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top:0px;
   justify-content: center;
   min-height: 70vh;
   background-color: transparent;
@@ -54,7 +52,7 @@ const ContentWrapper = styled.div`
   align-items: center;
   width: 100%;
   max-width: 1400px;
-  gap: 4rem;
+  gap: 2rem;
   position: relative;
   z-index: 1;
 
@@ -62,13 +60,19 @@ const ContentWrapper = styled.div`
     flex-direction: row;
     justify-content: space-between;
     gap: 6rem;
+    wd
   }
 `;
 
 const TextSection = styled.div`
   animation: ${fadeInUp} 1s ease-out;
-  padding: 2rem;
+  padding: 1.5rem;
   max-width: 700px;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
 `;
 
 const Greeting = styled.div`
@@ -101,7 +105,7 @@ const Subtitle = styled.h2`
 `;
 
 const Description = styled.p`
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #cbd5e1;
   line-height: 1.8;
   margin-bottom: 2rem;
@@ -112,10 +116,16 @@ const Description = styled.p`
     color: #64ffda;
     font-weight: 600;
   }
+
+  @media (min-width: 768px) {
+    font-size: 1.125rem;
+  }
 `;
 
 const TechStack = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
   margin-bottom: 2rem;
   opacity: 0;
@@ -141,8 +151,8 @@ const TechStack = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  width: 280px;
-  height: 280px;
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -150,8 +160,8 @@ const ImageContainer = styled.div`
   animation: ${fadeInUp} 0.5s ease-out 1s forwards, ${float} 6s ease-in-out infinite;
 
   @media (min-width: 768px) {
-    width: 400px;
-    height: 450px;
+    width: 300px;
+    height: 350px;
   }
 
   &::before {
@@ -183,16 +193,22 @@ const ImageContainer = styled.div`
 
 const ButtonContainer = styled.div`
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
   margin-top: 2.5rem;
   opacity: 0;
   animation: ${fadeInUp} 0.5s ease-out 1s forwards;
+
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+  }
 `;
 
 const Button = styled.a`
   padding: 1rem 2rem;
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: ${props => props.primary ? '#000000' : '#64ffda'};
   background: ${props => props.primary ? 'linear-gradient(45deg, #64ffda, #64ffda)' : 'transparent'};
   border: ${props => props.primary ? 'none' : '2px solid #64ffda'};
@@ -283,7 +299,7 @@ const Home = () => {
           </TechStack>
           <ButtonContainer>
             <Button 
-              href=""
+              href="https://drive.google.com/file/d/1HZu-XOFRsjm8p_e3wjSM749ENPd-BINw/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               primary

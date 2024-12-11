@@ -19,13 +19,16 @@ const fadeInUp = keyframes`
   }
 `;
 
-
-// Styled Components with Advanced Design
 const ExperienceSection = styled.section`
   padding: 0rem 2rem;
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 768px) {
+    padding: 0rem 1rem;
+    min-height: auto;
+  }
 `;
 
 const Container = styled.div`
@@ -33,6 +36,10 @@ const Container = styled.div`
   margin: 0 auto;
   position: relative;
   z-index: 2;
+
+  @media (max-width: 768px) {
+    padding: 0 0.5rem;
+  }
 `;
 
 const SectionTitle = styled.h2`
@@ -52,12 +59,25 @@ const SectionTitle = styled.h2`
     height: 4px;
     background: linear-gradient(90deg, transparent, #64ffda, transparent);
   }
+
+  @media (max-width: 768px) {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+
+    &::after {
+      width: 100px;
+    }
+  }
 `;
 
 const ExperienceGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+
+  @media (max-width: 768px) {
+    gap: 1.5rem;
+  }
 `;
 
 const ExperienceCard = styled.div`
@@ -74,6 +94,11 @@ const ExperienceCard = styled.div`
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
   }
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
 `;
 
 const CompanyHeader = styled.div`
@@ -81,9 +106,20 @@ const CompanyHeader = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
 `;
 
-const CompanyInfo = styled.div``;
+const CompanyInfo = styled.div`
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`;
 
 const Company = styled.h3`
   color: #64ffda;
@@ -92,12 +128,20 @@ const Company = styled.h3`
   display: flex;
   align-items: center;
   gap: 0.75rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Position = styled.h4`
   color: #fff;
   font-size: 1.4rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.2rem;
+  }
 `;
 
 const Timeline = styled.div`
@@ -105,12 +149,22 @@ const Timeline = styled.div`
   align-items: center;
   color: #8892b0;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 const Description = styled.p`
   color: #a8b2d1;
   line-height: 1.6;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
 `;
 
 const AchievementList = styled.ul`
@@ -127,6 +181,10 @@ const AchievementItem = styled.li`
   svg {
     color: #64ffda;
     margin-right: 0.75rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
   }
 `;
 
@@ -146,7 +204,12 @@ const CertificateLink = styled.a`
     color: #fff;
     transform: scale(1.05);
   }
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
 `;
+
 
 const experiences = [
   {
