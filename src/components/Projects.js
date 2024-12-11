@@ -155,7 +155,31 @@ const projectCategories = {
         
           "Node.js"
         ]
-      }
+      },
+    {
+      name: "Personal Notes Manager",
+      deployedLink: "https://personal-notes-manager-eta.vercel.app/",
+      githubLink: "https://github.com/NalagamdinniRaju/Persoanl-Notes-Manager.git",
+      image: "https://img.freepik.com/free-vector/appointment-booking-with-man-smartphone_23-2148559015.jpg?",
+      description: "A full-stack note-taking application with real-time updates, search functionality, and category management.",
+      features: [
+        "Create, read, update, and delete notes",
+        "Real-time search and category filtering",
+        "Responsive design with smooth animations",
+        "Toast notifications for user actions",
+        "Category-based organization system"
+      ],
+      technologies: [
+        "React JS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Framer Motion",
+        "React Toastify",
+        "REST API"
+      ],
+    
+    }
       
     
     
@@ -179,8 +203,8 @@ const projectCategories = {
     },
     {
       name: "Quick Todo Application",
-      deployedLink: "https://raviquicktodo.ccbp.tech/",
-      githubLink: "https://github.com/raviteja-salva/quick-todo-application",
+      deployedLink: "https://nrs-task-tracker.vercel.app/",
+      githubLink: "https://github.com/NalagamdinniRaju/Task-Tracker-.git",
       image: "https://img.freepik.com/free-vector/add-tasks-concept-illustration_114360-4875.jpg?t",
       description: "A robust task tracking system with CRUD capabilities for managing tasks efficiently.",
       features: [
