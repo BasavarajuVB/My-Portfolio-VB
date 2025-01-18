@@ -21,6 +21,36 @@ const projectCategories = {
       ],
       technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "Stripe", "REST API"]
     },
+      {
+    name: "Hospital Food Delivery Management System",
+    deployedLink: "https://hospital-food-management-nrajus-projects.vercel.app/",
+    githubLink: "https://github.com/NalagamdinniRaju/Hospital-Food-Management.git",
+    image: "https://img.freepik.com/premium-photo/nurse-medical-coat-is-holding-tray-with-breakfast_179755-5329.jpg?",
+    description: "A full-stack application for managing hospital meal deliveries, patient diets, and real-time order tracking.",
+    features: [
+      "Role-based dashboards for hospital managers, pantry staff, and delivery personnel",
+      "Real-time meal tracking with WebSocket integration",
+      "Secure authentication with JWT",
+      "Admin panel for meal and order management"
+    ],
+    technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "WebSocket"]
+  },
+  {
+    name: "School Payment Management System",
+    deployedLink: "https://manage-school-payments.netlify.app/",
+    githubLink: "https://github.com/NalagamdinniRaju/School_Payment_Management.git",
+    image: "https://img.freepik.com/premium-photo/woman-bar-paying-using-contactless-credit-card-she-is-leaning-it-pos-teminal-payments-technology-concept_1049504-637.jpg?", // Professional recruitment image
+    description: "A comprehensive school payment management system to streamline transaction tracking and management.",
+    features: [
+      "JWT-based authentication",
+      "Real-time transaction tracking",
+      "CSV data import",
+      "Advanced search and filtering functionalities",
+      "Dynamic transaction status updates"
+    ],
+    technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
+  },
+
     {
       name: "Web Performance Analyzer",
       deployedLink: "https://web-analyzer-frontend.vercel.app/",
