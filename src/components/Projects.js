@@ -232,6 +232,33 @@ const projectCategories = {
 
     },
     {
+    name: "Pedha Harivanam Village Website",
+    deployedLink: "https://phdy.netlify.app/",
+    githubLink: "https://github.com/NalagamdinniRaju/Pedha-Harivanam-Village-Website",
+    image: " https://res.cloudinary.com/dwiq4s5ut/image/upload/v1737190129/Screenshot_741_u56zdd.png", // Village development themed image
+    description: "A community-driven website to promote village development, youth engagement, and fund collection for social welfare.",
+    features: [
+      "Responsive design with light/dark mode support",
+      "Youth development fund collection platform",
+      "Join youth groups and volunteer for development projects",
+      "About section to showcase village initiatives",
+      "Contact Us form with location maps for community engagement",
+      "Real-time updates for ongoing village projects and development news",
+      "Location map integration for easy navigation"
+    ],
+    technologies: [
+      "React JS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JavaScript",
+      "CSS",
+      "Bootstrap",
+      "REST API"
+    ]
+  },
+   
+    {
       name: "Quick Todo Application",
       deployedLink: "https://nrs-task-tracker.vercel.app/",
       githubLink: "https://github.com/NalagamdinniRaju/Task-Tracker-.git",
