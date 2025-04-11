@@ -313,7 +313,9 @@ const Home = () => {
           </ButtonContainer>
         </TextSection>
         <ImageContainer>
-          <img src="https://res.cloudinary.com/dwiq4s5ut/image/upload/v1732218444/Profile_pic_jdz5zm.jpg" alt="Raju Nalagamdinne" />
+               
+  // https://res.cloudinary.com/dwiq4s5ut/image/upload/v1732218444/Profile_pic_jdz5zm.jpg
+          <img src="https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744385611/Profile_Photo_loblng.jpg" alt="Raju Nalagamdinne" />
         </ImageContainer>
       </ContentWrapper>
     </HomeContainer>
