@@ -314,7 +314,7 @@ const Home = () => {
         </TextSection>
         <ImageContainer>
                
-  // https://res.cloudinary.com/dwiq4s5ut/image/upload/v1732218444/Profile_pic_jdz5zm.jpg
+
           <img src="https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744385611/Profile_Photo_loblng.jpg" alt="Raju Nalagamdinne" />
         </ImageContainer>
       </ContentWrapper>
@@ -323,3 +323,4 @@ const Home = () => {
 };
 
 export default Home;
+  // https://res.cloudinary.com/dwiq4s5ut/image/upload/v1732218444/Profile_pic_jdz5zm.jpg
