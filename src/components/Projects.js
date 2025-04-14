@@ -51,11 +51,11 @@ const projectCategories = {
     technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
   },
 {
-  name: "Prenatal Care Appointment Booking System",
+  name: "Appointment Booking System",
   deployedLink: "https://appointment-booking-system-orpin.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/Appointment-Booking-System.git",
   image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1740589947/Screenshot_784_rdpip1.png", // Appointment system screenshot
-  description: "A comprehensive platform for managing prenatal care appointments with obstetricians and gynecologists, featuring real-time availability checks and appointment management.",
+  description: "A platform for managing prenatal appointments with real-time availability and scheduling.",
   features: [
     "Interactive Appointment Booking Calendar",
     "Detailed Doctor Profiles with Images and Working Hours",
@@ -256,11 +256,11 @@ const projectCategories = {
   ],
   frontend: [
     {
-  name: "Modern Task Management System (TaskTrek)",
+  name: "Modern Task Management System",
   deployedLink: "https://task-management-nrs.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/Task-Management.git",
   image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1738104172/Screenshot_748_k9dqsc.png", // Updated image link
-  description: "A powerful, modern task management application built with React that transforms your workflow with Kanban-style organization and seamless drag-and-drop functionality.",
+  description:" A modern task management app in React with Kanban-style organization and drag-and-drop functionality.",
   features: [
     "Kanban-style task organization with three columns",
     "Drag-and-drop task movement",
@@ -283,7 +283,7 @@ const projectCategories = {
   deployedLink: "https://user-management-dashboard-nrs.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/User-Management-Dashboard-.git",
   image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621166/Screenshot_881_kl4qp5.png",
-  description: "A user-friendly web application to manage user details, built with React and JSONPlaceholder. It allows users to perform CRUD operations, interact with a mock backend API, and experience a responsive and modern UI with advanced features like PDF export, real-time search, dark mode, and more.",
+  description: "A user-friendly React app for managing user details with CRUD operations, mock API integration, PDF export, real-time search, and dark mode.",
   features: [
     "👤 User CRUD Operations (View, Add, Edit, Delete)",
     "🌐 API integration with JSONPlaceholder (GET, POST, PUT, DELETE)",
@@ -303,21 +303,7 @@ const projectCategories = {
   ]
 }
 ,
-    {
-      name: "Jobby App",
-      deployedLink: "https://nrs.ccbp.tech/",
-      githubLink: "",
-      image: "https://specials-images.forbesimg.com/imageserve/6010706b32cbb402c830ace5/960x0.jpg?fit=scale",
-      // description: "A job search and filtering application enabling user authentication with JWT tokens and smooth navigation using React Router.",
-      features: [
-        "User authentication with JWT tokens",
-        "Job search and filtering functionality",
-        "Navigation with React Router",
-      ],
-      technologies: ["React JS", "JavaScript", "CSS", "Bootstrap", "REST API"],
-      credentials: { username: "raja", password: "raja@2021" }
-
-    },
+  
     {
     name: "Pedha Harivanam Village Website",
     deployedLink: "https://phdy.netlify.app/",
@@ -344,11 +330,11 @@ const projectCategories = {
       "REST API"
     ]
   },{
-  name: "Novam Tech - Business Consulting Website",
+  name: "Business Consulting Website",
   deployedLink: "https://novam-tech.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/novam-tech.git",
   image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621417/Screenshot_882_rbryc2.png",
-  description: "Novam Tech is a modern, elegant business consulting website built with React. It showcases a range of professional services and features a clean, responsive design with light/dark theme support, subtle animations, and intuitive navigation. The site is designed to attract and convert potential clients through strategic messaging, compelling visuals, and a user-friendly consultation booking form.",
+  description: "Novam Tech is a sleek, responsive business consulting site built with React, offering professional services, light/dark theme support, animations, and an easy consultation booking form.",
   features: [
     "🌗 Dark and Light Theme Toggle for enhanced UX",
     "💼 Professional Service Sections with detailed descriptions",
@@ -364,19 +350,17 @@ const projectCategories = {
     "React.js", 
     "CSS (custom styling)", 
     "React Icons",
-    "React Router",
     "Responsive Design",
     "Theme Toggle Functionality",
-    "Framer Motion (for animations)"
   ]
 }
 ,
     {
-  name: "KK Computers - Technology Services Landing Page",
+  name: "Technology Services Landing Page",
   deployedLink: "https://kk-computers.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/Landing-Page-.git",
   image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621417/Screenshot_882_rbryc2.png",
-  description: "KK Computers is a modern and professional landing page developed for a multi-service technology business. Built using React.js, this responsive website highlights key offerings such as computer repair, graphic design, and internet café services. The sleek design, user-focused layout, and subtle animations deliver an informative and welcoming user experience for both new and returning customers.",
+  description: "KK Computers is a responsive React.js landing page showcasing services like computer repair, graphic design, and internet café, with a sleek design and user-friendly experience.",
   features: [
     "💻 Detailed service sections for Computer Repair, Graphic Design, and Internet Cafe",
     "🕹️ Highlighted gaming and connectivity services in Internet Cafe section",
@@ -397,7 +381,21 @@ const projectCategories = {
     "Form Elements"
   ]
 }
-,
+,  {
+      name: "Jobby App",
+      deployedLink: "https://nrs.ccbp.tech/",
+      githubLink: "",
+      image: "https://specials-images.forbesimg.com/imageserve/6010706b32cbb402c830ace5/960x0.jpg?fit=scale",
+      // description: "A job search and filtering application enabling user authentication with JWT tokens and smooth navigation using React Router.",
+      features: [
+        "User authentication with JWT tokens",
+        "Job search and filtering functionality",
+        "Navigation with React Router",
+      ],
+      technologies: ["React JS", "JavaScript", "CSS", "Bootstrap", "REST API"],
+      credentials: { username: "raja", password: "raja@2021" }
+
+    },
    
     {
       name: "Quick Todo Application",
