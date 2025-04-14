@@ -279,7 +279,7 @@ const projectCategories = {
   ]
 }
 ,{
-  name: "Simple User Management Application",
+  name: "User Management Application",
   deployedLink: "https://user-management-dashboard-nrs.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/User-Management-Dashboard-.git",
   image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621166/Screenshot_881_kl4qp5.png",
@@ -305,7 +305,7 @@ const projectCategories = {
 ,
   
     {
-    name: "Pedha Harivanam Village Website",
+    name: "My Village Website",
     deployedLink: "https://phdy.netlify.app/",
     githubLink: "https://github.com/NalagamdinniRaju/Pedha-Harivanam-Village-Website",
     image: " https://res.cloudinary.com/dwiq4s5ut/image/upload/v1737190129/Screenshot_741_u56zdd.png", // Village development themed image
@@ -334,7 +334,7 @@ const projectCategories = {
   deployedLink: "https://novam-tech.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/novam-tech.git",
   image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621417/Screenshot_882_rbryc2.png",
-  description: "Novam Tech is a sleek, responsive business consulting site built with React, offering professional services, light/dark theme support, animations, and an easy consultation booking form.",
+  description: "Novam Tech is a modern React consulting site offering services, light/dark theme, animations, and a simple booking form.",
   features: [
     "🌗 Dark and Light Theme Toggle for enhanced UX",
     "💼 Professional Service Sections with detailed descriptions",
@@ -359,8 +359,8 @@ const projectCategories = {
   name: "Technology Services Landing Page",
   deployedLink: "https://kk-computers.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/Landing-Page-.git",
-  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621417/Screenshot_882_rbryc2.png",
-  description: "KK Computers is a responsive React.js landing page showcasing services like computer repair, graphic design, and internet café, with a sleek design and user-friendly experience.",
+  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621654/Screenshot_883_nkqrn6.png",
+  description: "KK Computers is a responsive React.js landing page for computer repair, design, and internet café services.",
   features: [
     "💻 Detailed service sections for Computer Repair, Graphic Design, and Internet Cafe",
     "🕹️ Highlighted gaming and connectivity services in Internet Cafe section",
@@ -378,7 +378,7 @@ const projectCategories = {
     "React Icons", 
     "Responsive Design", 
     "Basic Animations", 
-    "Form Elements"
+  
   ]
 }
 ,  {
