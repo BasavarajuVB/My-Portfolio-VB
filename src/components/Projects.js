@@ -50,7 +50,27 @@ const projectCategories = {
     ],
     technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
   },
-
+{
+  name: "Prenatal Care Appointment Booking System",
+  deployedLink: "https://appointment-booking-system-orpin.vercel.app/",
+  githubLink: "https://github.com/NalagamdinniRaju/Appointment-Booking-System.git",
+  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1740589947/Screenshot_784_rdpip1.png", // Appointment system screenshot
+  description: "A comprehensive platform for managing prenatal care appointments with obstetricians and gynecologists, featuring real-time availability checks and appointment management.",
+  features: [
+    "Interactive Appointment Booking Calendar",
+    "Detailed Doctor Profiles with Images and Working Hours",
+    "Real-Time Updates using Socket.IO",
+    "Responsive and Mobile-Friendly Design",
+    "Robust Form Validation for Booking",
+    "Full CRUD Functionality for Appointments"
+  ],
+  technologies: [
+    "React", "React Router", "Axios", "Radix UI", 
+    "Node.js", "Express", "MongoDB", "Socket.IO", 
+    "date-fns", "React Datepicker"
+  ]
+}
+,
     {
       name: "Web Performance Analyzer",
       deployedLink: "https://web-analyzer-frontend.vercel.app/",
@@ -66,6 +86,25 @@ const projectCategories = {
       ],
       technologies: ["React JS", "Node.js", "Express", "Puppeteer", "MongoDB", "REST API"]
     },
+    {
+  name: "Revisit Category Management Dashboard",
+  deployedLink: "https://category-management-nrs.vercel.app/",
+  githubLink: "https://github.com/NalagamdinniRaju/Category-Management-Revisit.git",
+  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744569810/Screenshot_877_eg23tt.png", // Revisit dashboard screenshot
+  description: "A full-stack admin dashboard for managing clothing categories on Revisit — an e-commerce platform.",
+  features: [
+    "JWT-based Admin Authentication",
+    "Add, View, Edit, and Delete Categories",
+    "Upload and Display Category Images",
+    "Responsive Sidebar UI with Toast Notifications",
+    "Protected Routes with Clean Code Structure"
+  ],
+  technologies: [
+    "React JS", "TailwindCSS", "Node.js", "Express", "MongoDB or SQLite", 
+    "JWT", "REST API", "Multer", "React Toastify"
+  ]
+}
+,
     {
       name: "Nxt Trendz (E-Commerce Clone)",
       deployedLink: "https://nxttrendzrts.ccbp.tech/",
@@ -217,6 +256,54 @@ const projectCategories = {
   ],
   frontend: [
     {
+  name: "Modern Task Management System (TaskTrek)",
+  deployedLink: "https://task-management-nrs.vercel.app/",
+  githubLink: "https://github.com/NalagamdinniRaju/Task-Management.git",
+  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1738104172/Screenshot_748_k9dqsc.png", // Updated image link
+  description: "A powerful, modern task management application built with React that transforms your workflow with Kanban-style organization and seamless drag-and-drop functionality.",
+  features: [
+    "Kanban-style task organization with three columns",
+    "Drag-and-drop task movement",
+    "Real-time task counting and visual progress tracking",
+    "Dark/Light theme toggle with modern UI",
+    "Priority color coding and due date scheduling",
+    "Toast notifications for task operations",
+    "Local storage persistence with auto-save",
+    "Responsive design across devices"
+  ],
+  technologies: [
+    "React.js", "Context API", "CSS Modules", 
+    "Framer Motion", "React Hot Toast", 
+    "React Icons", "LocalStorage API", 
+    "CSS Custom Properties"
+  ]
+}
+,{
+  name: "Simple User Management Application",
+  deployedLink: "https://user-management-dashboard-nrs.vercel.app/",
+  githubLink: "https://github.com/NalagamdinniRaju/User-Management-Dashboard-.git",
+  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621166/Screenshot_881_kl4qp5.png",
+  description: "A user-friendly web application to manage user details, built with React and JSONPlaceholder. It allows users to perform CRUD operations, interact with a mock backend API, and experience a responsive and modern UI with advanced features like PDF export, real-time search, dark mode, and more.",
+  features: [
+    "👤 User CRUD Operations (View, Add, Edit, Delete)",
+    "🌐 API integration with JSONPlaceholder (GET, POST, PUT, DELETE)",
+    "🔍 Real-time Search by Name or Email",
+    "📊 Pagination for large user datasets",
+    "📝 Client-side Form Validation",
+    "📄 Download user info as styled PDF with jsPDF",
+    "🎭 Dynamic Avatars for each user",
+    "🔄 Loading indicators during data fetch",
+    "📱 Responsive design for all devices",
+    "🌑 Dark Mode toggle",
+    "🔔 Toast notifications for success & error handling"
+  ],
+  technologies: [
+    "React.js", "Tailwind CSS", "Axios",
+    "react-toastify", "jsPDF", "JSONPlaceholder"
+  ]
+}
+,
+    {
       name: "Jobby App",
       deployedLink: "https://nrs.ccbp.tech/",
       githubLink: "",
@@ -256,7 +343,61 @@ const projectCategories = {
       "Bootstrap",
       "REST API"
     ]
-  },
+  },{
+  name: "Novam Tech - Business Consulting Website",
+  deployedLink: "https://novam-tech.vercel.app/",
+  githubLink: "https://github.com/NalagamdinniRaju/novam-tech.git",
+  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621417/Screenshot_882_rbryc2.png",
+  description: "Novam Tech is a modern, elegant business consulting website built with React. It showcases a range of professional services and features a clean, responsive design with light/dark theme support, subtle animations, and intuitive navigation. The site is designed to attract and convert potential clients through strategic messaging, compelling visuals, and a user-friendly consultation booking form.",
+  features: [
+    "🌗 Dark and Light Theme Toggle for enhanced UX",
+    "💼 Professional Service Sections with detailed descriptions",
+    "📱 Fully Responsive Design for mobile and desktop",
+    "📊 Interactive Consultation Booking Form",
+    "✨ Smooth Animations and Transitions",
+    "📍 Contact Info with structured layout",
+    "📬 Functional contact form for client inquiries",
+    "🔗 Quick Navigation Links in the footer",
+    "🎯 Call-to-Action Buttons (Book Consultation, Learn More)"
+  ],
+  technologies: [
+    "React.js", 
+    "CSS (custom styling)", 
+    "React Icons",
+    "React Router",
+    "Responsive Design",
+    "Theme Toggle Functionality",
+    "Framer Motion (for animations)"
+  ]
+}
+,
+    {
+  name: "KK Computers - Technology Services Landing Page",
+  deployedLink: "https://kk-computers.vercel.app/",
+  githubLink: "https://github.com/NalagamdinniRaju/Landing-Page-.git",
+  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621417/Screenshot_882_rbryc2.png",
+  description: "KK Computers is a modern and professional landing page developed for a multi-service technology business. Built using React.js, this responsive website highlights key offerings such as computer repair, graphic design, and internet café services. The sleek design, user-focused layout, and subtle animations deliver an informative and welcoming user experience for both new and returning customers.",
+  features: [
+    "💻 Detailed service sections for Computer Repair, Graphic Design, and Internet Cafe",
+    "🕹️ Highlighted gaming and connectivity services in Internet Cafe section",
+    "🎨 Clean, modern UI design with responsive layout for all devices",
+    "📇 Structured Contact Form for easy communication",
+    "📚 About Us section showcasing company history and values",
+    "📞 Contact Info with integrated support and quick links",
+    "⚙️ Smooth scroll and navigation experience",
+    "🌐 Social links and copyright footer",
+    "🔍 Emphasis on company expertise, experience, and 24/7 support"
+  ],
+  technologies: [
+    "React.js", 
+    "CSS (custom styling)", 
+    "React Icons", 
+    "Responsive Design", 
+    "Basic Animations", 
+    "Form Elements"
+  ]
+}
+,
    
     {
       name: "Quick Todo Application",
