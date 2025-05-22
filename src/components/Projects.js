@@ -35,21 +35,21 @@ const projectCategories = {
     ],
     technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "WebSocket"]
   },
-  {
-    name: "School Payment Management System",
-    deployedLink: "https://manage-school-payments.netlify.app/",
-    githubLink: "https://github.com/NalagamdinniRaju/School_Payment_Management.git",
-    image: "https://img.freepik.com/premium-photo/woman-bar-paying-using-contactless-credit-card-she-is-leaning-it-pos-teminal-payments-technology-concept_1049504-637.jpg?", // Professional recruitment image
-    description: "A comprehensive school payment management system to streamline transaction tracking and management.",
-    features: [
-      "JWT-based authentication",
-      "Real-time transaction tracking",
-      "CSV data import",
-      "Advanced search and filtering functionalities",
-      "Dynamic transaction status updates"
-    ],
-    technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
-  },
+  // {
+  //   name: "School Payment Management System",
+  //   deployedLink: "https://manage-school-payments.netlify.app/",
+  //   githubLink: "https://github.com/NalagamdinniRaju/School_Payment_Management.git",
+  //   image: "https://img.freepik.com/premium-photo/woman-bar-paying-using-contactless-credit-card-she-is-leaning-it-pos-teminal-payments-technology-concept_1049504-637.jpg?", // Professional recruitment image
+  //   description: "A comprehensive school payment management system to streamline transaction tracking and management.",
+  //   features: [
+  //     "JWT-based authentication",
+  //     "Real-time transaction tracking",
+  //     "CSV data import",
+  //     "Advanced search and filtering functionalities",
+  //     "Dynamic transaction status updates"
+  //   ],
+  //   technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
+  // },
 {
   name: "Appointment Booking System",
   deployedLink: "https://appointment-booking-system-orpin.vercel.app/",
@@ -143,30 +143,30 @@ const projectCategories = {
         "REST API"
       ],
     },
-    {
-      name: "Advanced Todo Tasks Application",
-      deployedLink: "https://todo-application-nrs.vercel.app/",
-      githubLink: "https://github.com/NalagamdinniRaju/Todo-Web-Application.git",
-      image: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613", // Todo list themed image
-      description: "A comprehensive task management application with user authentication, task tracking, and profile management.",
-      features: [
-        "User registration and secure authentication",
-        "Create, update, and track tasks",
-        "Task status management",
-        "Profile information updates",
-        "Password change functionality",
-        "Task statistics and productivity insights"
-      ],
-      technologies: [
-        "React JS", 
-        "Node.js", 
-        "Express", 
-        "MongoDB", 
-        "JWT", 
-        "REST API"
-      ],
+    // {
+    //   name: "Advanced Todo Tasks Application",
+    //   deployedLink: "https://todo-application-nrs.vercel.app/",
+    //   githubLink: "https://github.com/NalagamdinniRaju/Todo-Web-Application.git",
+    //   image: "https://images.unsplash.com/photo-1593720213428-28a5b9e94613", // Todo list themed image
+    //   description: "A comprehensive task management application with user authentication, task tracking, and profile management.",
+    //   features: [
+    //     "User registration and secure authentication",
+    //     "Create, update, and track tasks",
+    //     "Task status management",
+    //     "Profile information updates",
+    //     "Password change functionality",
+    //     "Task statistics and productivity insights"
+    //   ],
+    //   technologies: [
+    //     "React JS", 
+    //     "Node.js", 
+    //     "Express", 
+    //     "MongoDB", 
+    //     "JWT", 
+    //     "REST API"
+    //   ],
    
-    },
+    // },
 
       {
         name: "Mentor Connect",
