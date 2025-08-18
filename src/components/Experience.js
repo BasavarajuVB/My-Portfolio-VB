@@ -212,6 +212,19 @@ const CertificateLink = styled.a`
 
 
 const experiences = [
+   {
+    company: "BOP Consultancy and Services",
+    position: "Junior Frontend Developer",
+    period: "05/2025 – Present",
+    current: true,
+    description:
+      "Worked on scalable Progressive Web Applications (PWAs) and currently developing a game-based application by translating Figma designs into responsive, interactive user interfaces.",
+    achievements: [
+      "Built two scalable PWAs for Cocola Company: theme-based UI for the eMenu project and restaurant onboarding platform, and the Konnect execution creation platform",
+      "Currently developing a game-based application with seamless cross-device experience",
+      "Collaborated with cross-functional teams via Mattermost and managed code repositories using Git",
+    ],
+  },
   {
     company: "Aptitude Guru Hem",
     position: "Fullstack Developer Intern",
@@ -224,6 +237,19 @@ const experiences = [
       "Managed team collaboration and productivity by handling task integration and code reviews"
     ],
     certification: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1731597421/Screenshot_2024-11-12_220411_iuja2s.png"
+  },
+  {
+    company: "Sattva Infotech",
+    position: "Full-Stack Developer Intern",
+    period: "01/2024 – 05/2024",
+    current: false,
+    description:
+      "Worked on sample projects gaining hands-on experience with backend development and various web technologies.",
+    achievements: [
+      "Developed sample projects including a To-Do Application, Notes Management Platform, and contributed to a Food Booking Application",
+      "Gained practical experience with backend development and integration",
+      "Enhanced understanding of teamwork and version control using Git",
+    ],
   },
   {
     company: "Sattva Infotech",
