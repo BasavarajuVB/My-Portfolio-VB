@@ -213,9 +213,9 @@ const CertificateLink = styled.a`
 
 const experiences = [
    {
-    company: "BOP Consultancy and Services",
-    position: "Junior Frontend Developer",
-    period: "05/2025 – Present",
+    company: "Web3Today",
+    position: "FullStack Developer",
+    period: "01/2025 – Present",
     current: true,
     description:
       "Worked on scalable Progressive Web Applications (PWAs) and currently developing a game-based application by translating Figma designs into responsive, interactive user interfaces.",
@@ -225,19 +225,19 @@ const experiences = [
       "Collaborated with cross-functional teams via Mattermost and managed code repositories using Git",
     ],
   },
-  {
-    company: "Aptitude Guru Hem",
-    position: "Fullstack Developer Intern",
-    period: "06/2024 - 09/2024",
-    current: true,
-    description: "Developed an affiliate marketing site for the Admin portal and GST Management System using the MERN stack with a focus on efficient data handling and user experience. Managed project tasks via Jira, handled deployment, integrated team tasks, and conducted code reviews.",
-    achievements: [
-      "Ensured code quality, security, and maintainability using SonarQube for static analysis",
-      "Improved user experience through efficient data handling",
-      "Managed team collaboration and productivity by handling task integration and code reviews"
-    ],
-    certification: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1731597421/Screenshot_2024-11-12_220411_iuja2s.png"
-  },
+  // {
+  //   company: "Aptitude Guru Hem",
+  //   position: "Fullstack Developer Intern",
+  //   period: "06/2024 - 09/2024",
+  //   current: true,
+  //   description: "Developed an affiliate marketing site for the Admin portal and GST Management System using the MERN stack with a focus on efficient data handling and user experience. Managed project tasks via Jira, handled deployment, integrated team tasks, and conducted code reviews.",
+  //   achievements: [
+  //     "Ensured code quality, security, and maintainability using SonarQube for static analysis",
+  //     "Improved user experience through efficient data handling",
+  //     "Managed team collaboration and productivity by handling task integration and code reviews"
+  //   ],
+  //   certification: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1731597421/Screenshot_2024-11-12_220411_iuja2s.png"
+  // },
   {
     company: "Sattva Infotech",
     position: "Full-Stack Developer Intern",

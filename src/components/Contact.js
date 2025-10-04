@@ -394,21 +394,21 @@ const Contact = () => {
           <InfoList>
             <InfoItem>
               <FaEnvelope />
-              <a href="mailto:nalagamdinniraju@gmail.com">nalagamdinni@gmail.com</a>
+              <a href="mailto:bbasavaraju.dev@gmail.com">bbasavaraju.dev@gmail.com</a>
             </InfoItem>
             <InfoItem>
               <FaPhone />
-              <a href="tel:+919398621600">+91 9398621600</a>
+              <a href="tel:+919490660393">+91 9490660393</a>
             </InfoItem>
             <InfoItem>
               <FaLinkedin />
-              <a href="https://www.linkedin.com/in/nalagamdinni-raju/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/basavaraju-vb/" target="_blank" rel="noopener noreferrer">
                 LinkedIn Profile
               </a>
             </InfoItem>
             <InfoItem>
               <FaGithub />
-              <a href="https://github.com/NalagamdinniRaju" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/BasavarajuVB" target="_blank" rel="noopener noreferrer">
                 GitHub Profile
               </a>
             </InfoItem>

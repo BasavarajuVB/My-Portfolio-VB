@@ -194,7 +194,7 @@ const App = () => {
     <Container>
     <Nav scrolled={scrolled}>
       <NavWrapper>
-        <Logo href="#home">NRS</Logo>
+        <Logo href="#home">VB</Logo>
         <NavLinks>
           <NavLink href="#home">Home</NavLink>
           <NavLink href="#education">Education</NavLink>

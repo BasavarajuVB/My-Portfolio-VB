@@ -245,7 +245,7 @@ const Education = () => {
     },
     {
       degree: "Intermediate (MPC)",
-      institution: "Sri Medha Junior College",
+      institution: "Pragati Junior College",
       location: "Kurnool, AP",
       duration: "06/2019 - 03/2021",
       details: [
@@ -258,7 +258,7 @@ const Education = () => {
     {
       degree: "Secondary School Certificate",
       institution: "Govt High School",
-      location: "Pedha Harivanam, AP",
+      location: "Nitravatti, AP",
       duration: "05/2018 - 03/2019",
       details: [
         "Comprehensive general education",

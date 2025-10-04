@@ -158,6 +158,10 @@ const ImageContainer = styled.div`
   position: relative;
   opacity: 0;
   animation: ${fadeInUp} 0.5s ease-out 1s forwards, ${float} 6s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 
   @media (min-width: 768px) {
     width: 300px;
@@ -182,7 +186,7 @@ const ImageContainer = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transform: scale(1.1);
+    transform: scale(1);
     transition: transform 0.5s ease;
 
     &:hover {
@@ -284,7 +288,7 @@ const Home = () => {
       <ContentWrapper>
         <TextSection>
           <Greeting>👋 Hello, I'm</Greeting>
-          <Title>Raju Nalagamdinne</Title>
+          <Title>Basavaraju VB</Title>
           <Subtitle>Full Stack Developer & Problem Solver</Subtitle>
           <Description>
             I'm a passionate developer focused on creating <strong>exceptional digital experiences</strong>. 
@@ -316,7 +320,7 @@ const Home = () => {
         <ImageContainer>
                
 
-          <img src="https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744385611/Profile_Photo_loblng.jpg" alt="Raju Nalagamdinne" />
+          <img src="https://res.cloudinary.com/dmbkkv5ko/image/upload/v1759509253/Basavaraju_Photo_nviyqe.jpg" alt="Raju Nalagamdinne" />
         </ImageContainer>
       </ContentWrapper>
     </HomeContainer>
