@@ -262,7 +262,7 @@ const experiences = [
       "Collaborated with cross-functional teams to translate business requirements into digital solutions",
       "Gained comprehensive experience in front-end web development project lifecycle"
     ],
-    certification: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1732129965/Sattava_Infotech_Certificate_wztvsx.jpg",
+    certification: "https://drive.google.com/file/d/11qMXwsTSohLoXBJaGjsy3JVfRTxfkFjy/view?usp=sharing",
     internId: "SIT-2023-0132"
   }
 ];

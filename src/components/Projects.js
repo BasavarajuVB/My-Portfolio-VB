@@ -6,35 +6,35 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 const projectCategories = {
   fullStack: [
    
-    {
-      name: "Food Delivery App",
-      deployedLink: "https://nrs-food-delivery-frontend.vercel.app/",
-      githubLink: "https://github.com/NalagamdinniRaju/Food-Delivery-App.git",
-      image: "https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303524.jpg?",  // Food delivery themed image
-      description: "A comprehensive full-stack food delivery platform with secure authentication, shopping cart, and online payments.",
-      features: [
-        "User registration and authentication with JWT",
-        "Stripe integration for secure online payments",
-        "Dynamic food menu browsing",
-        "Real-time order tracking",
-        "Admin panel for menu and order management"
-      ],
-      technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "Stripe", "REST API"]
-    },
-      {
-    name: "Hospital Food Delivery Management System",
-    deployedLink: "https://hospital-food-management-nrajus-projects.vercel.app/",
-    githubLink: "https://github.com/NalagamdinniRaju/Hospital-Food-Management.git",
-    image: "https://img.freepik.com/premium-photo/nurse-medical-coat-is-holding-tray-with-breakfast_179755-5329.jpg?",
-    description: "A full-stack application for managing hospital meal deliveries, patient diets, and real-time order tracking.",
-    features: [
-      "Role-based dashboards for hospital managers, pantry staff, and delivery personnel",
-      "Real-time meal tracking with WebSocket integration",
-      "Secure authentication with JWT",
-      "Admin panel for meal and order management"
-    ],
-    technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "WebSocket"]
-  },
+  //   {
+  //     name: "Food Delivery App",
+  //     deployedLink: "https://nrs-food-delivery-frontend.vercel.app/",
+  //     githubLink: "https://github.com/NalagamdinniRaju/Food-Delivery-App.git",
+  //     image: "https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303524.jpg?",  // Food delivery themed image
+  //     description: "A comprehensive full-stack food delivery platform with secure authentication, shopping cart, and online payments.",
+  //     features: [
+  //       "User registration and authentication with JWT",
+  //       "Stripe integration for secure online payments",
+  //       "Dynamic food menu browsing",
+  //       "Real-time order tracking",
+  //       "Admin panel for menu and order management"
+  //     ],
+  //     technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "Stripe", "REST API"]
+  //   },
+  //     {
+  //   name: "Hospital Food Delivery Management System",
+  //   deployedLink: "https://hospital-food-management-nrajus-projects.vercel.app/",
+  //   githubLink: "https://github.com/NalagamdinniRaju/Hospital-Food-Management.git",
+  //   image: "https://img.freepik.com/premium-photo/nurse-medical-coat-is-holding-tray-with-breakfast_179755-5329.jpg?",
+  //   description: "A full-stack application for managing hospital meal deliveries, patient diets, and real-time order tracking.",
+  //   features: [
+  //     "Role-based dashboards for hospital managers, pantry staff, and delivery personnel",
+  //     "Real-time meal tracking with WebSocket integration",
+  //     "Secure authentication with JWT",
+  //     "Admin panel for meal and order management"
+  //   ],
+  //   technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "WebSocket"]
+  // },
   {
     name: "School Payment Management System",
     deployedLink: "https://manage-school-payments.netlify.app/",
@@ -49,62 +49,7 @@ const projectCategories = {
       "Dynamic transaction status updates"
     ],
     technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
-  },
-{
-  name: "Appointment Booking System",
-  deployedLink: "https://appointment-booking-system-orpin.vercel.app/",
-  githubLink: "https://github.com/NalagamdinniRaju/Appointment-Booking-System.git",
-  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1740589947/Screenshot_784_rdpip1.png", // Appointment system screenshot
-  description: "A platform for managing prenatal appointments with real-time availability and scheduling.",
-  features: [
-    "Interactive Appointment Booking Calendar",
-    "Detailed Doctor Profiles with Images and Working Hours",
-    "Real-Time Updates using Socket.IO",
-    "Responsive and Mobile-Friendly Design",
-    "Robust Form Validation for Booking",
-    "Full CRUD Functionality for Appointments"
-  ],
-  technologies: [
-    "React", "React Router", "Axios", "Radix UI", 
-    "Node.js", "Express", "MongoDB", "Socket.IO", 
-    "date-fns", "React Datepicker"
-  ]
-}
-,
-    {
-      name: "Web Performance Analyzer",
-      deployedLink: "https://web-analyzer-frontend.vercel.app/",
-      githubLink: "https://github.com/NalagamdinniRaju/web-analyzer.git",
-      image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3",  // Web analytics themed image
-      description: "A powerful web performance analysis tool providing detailed website performance metrics.",
-      features: [
-        "Instant website performance scanning",
-        "Comprehensive performance metrics",
-        "PDF report generation",
-        "Detailed performance scoring",
-        "User-friendly interface"
-      ],
-      technologies: ["React JS", "Node.js", "Express", "Puppeteer", "MongoDB", "REST API"]
-    },
-    {
-  name: "Revisit Category Management Dashboard",
-  deployedLink: "https://category-management-nrs.vercel.app/",
-  githubLink: "https://github.com/NalagamdinniRaju/Category-Management-Revisit.git",
-  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744569810/Screenshot_877_eg23tt.png", // Revisit dashboard screenshot
-  description: "A full-stack admin dashboard for managing clothing categories on Revisit — an e-commerce platform.",
-  features: [
-    "JWT-based Admin Authentication",
-    "Add, View, Edit, and Delete Categories",
-    "Upload and Display Category Images",
-    "Responsive Sidebar UI with Toast Notifications",
-    "Protected Routes with Clean Code Structure"
-  ],
-  technologies: [
-    "React JS", "TailwindCSS", "Node.js", "Express", "MongoDB or SQLite", 
-    "JWT", "REST API", "Multer", "React Toastify"
-  ]
-}
-,
+  },    
     {
       name: "Nxt Trendz (E-Commerce Clone)",
       deployedLink: "https://nxttrendzrts.ccbp.tech/",
@@ -167,31 +112,6 @@ const projectCategories = {
       ],
    
     },
-
-      {
-        name: "Mentor Connect",
-        deployedLink: "https://mentor-connect-frontend.vercel.app/",
-        githubLink: "https://github.com/NalagamdinniRaju/Mentor-Connect-Frontend.git",
-        image: "https://img.freepik.com/free-vector/online-job-interview-concept_23-2148628159.jpg",
-        description: "A full-stack platform for booking mentors and joining educational events...",
-        features: [
-          "Secure authentication for mentors and mentees",
-          "Mentor booking and session management",
-          "Event join and scheduling functionalities",
-          "Real-time notifications for updates",
-          "Responsive design for all devices"
-        ],
-        technologies: [
-          "React JS",
-          "Node.js",
-          "Express",
-          "MongoDB",
-          "JavaScript",
-          "CSS",
-          "Bootstrap",
-          "REST API"
-        ]
-      },
       {
         "name": "User Management System",
         "deployedLink": "https://user-management-system-frontend-rho.vercel.app/",
@@ -278,12 +198,33 @@ const projectCategories = {
     "CSS Custom Properties"
   ]
 }
-,{
+,
+{
+  name: "Telegram Mini App - Web3 Platform",
+  deployedLink: "https://telegram-mini-app-lyart-one.vercel.app/",
+  githubLink: "https://github.com/BasavarajuVB/Telegram-Mini-App",
+  image: "https://img.freepik.com/free-vector/telegram-bot-concept-illustration_114360-1551.jpg?",
+  description: "Developed a Telegram mini application using React JS, seamlessly integrated walletes",
+  features: [
+    "Telegram WebApp integration",
+    "Web3 wallet integration (WalletConnect/TON)",
+    "Crypto-based referrals",
+    "Real-time transaction notifications",
+    "Firebase-backed data flows"
+  ],
+  technologies: [
+    "React", "JavaScript", "CSS", "Firebase",
+    "Tailwind CSS", "Web3", "TON/WalletConnect",
+    "Canvas", "React Icons"
+  ]
+}
+,
+{
   name: "User Management Application",
   deployedLink: "https://user-management-dashboard-nrs.vercel.app/",
   githubLink: "https://github.com/NalagamdinniRaju/User-Management-Dashboard-.git",
   image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621166/Screenshot_881_kl4qp5.png",
-  description: "A user-friendly React app for managing user details with CRUD operations, mock API integration, PDF export, real-time search, and dark mode.",
+  description: "A user-friendly React app for managing user details",
   features: [
     "👤 User CRUD Operations (View, Add, Edit, Delete)",
     "🌐 API integration with JSONPlaceholder (GET, POST, PUT, DELETE)",
@@ -291,11 +232,7 @@ const projectCategories = {
     "📊 Pagination for large user datasets",
     "📝 Client-side Form Validation",
     "📄 Download user info as styled PDF with jsPDF",
-    "🎭 Dynamic Avatars for each user",
-    "🔄 Loading indicators during data fetch",
-    "📱 Responsive design for all devices",
-    "🌑 Dark Mode toggle",
-    "🔔 Toast notifications for success & error handling"
+    
   ],
   technologies: [
     "React.js", "Tailwind CSS", "Axios",
@@ -303,85 +240,7 @@ const projectCategories = {
   ]
 }
 ,
-  
-    {
-    name: "My Village Website",
-    deployedLink: "https://phdy.netlify.app/",
-    githubLink: "https://github.com/NalagamdinniRaju/Pedha-Harivanam-Village-Website",
-    image: " https://res.cloudinary.com/dwiq4s5ut/image/upload/v1737190129/Screenshot_741_u56zdd.png", // Village development themed image
-    description: "A community-driven website to promote village development, youth engagement, and fund collection for social welfare.",
-    features: [
-      "Responsive design with light/dark mode support",
-      "Youth development fund collection platform",
-      "Join youth groups and volunteer for development projects",
-      "About section to showcase village initiatives",
-      "Contact Us form with location maps for community engagement",
-      "Real-time updates for ongoing village projects and development news",
-      "Location map integration for easy navigation"
-    ],
-    technologies: [
-      "React JS",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "JavaScript",
-      "CSS",
-      "Bootstrap",
-      "REST API"
-    ]
-  },{
-  name: "Business Consulting Website",
-  deployedLink: "https://novam-tech.vercel.app/",
-  githubLink: "https://github.com/NalagamdinniRaju/novam-tech.git",
-  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621417/Screenshot_882_rbryc2.png",
-  description: "Novam Tech is a modern React consulting site offering services, light/dark theme, animations, and a simple booking form.",
-  features: [
-    "🌗 Dark and Light Theme Toggle for enhanced UX",
-    "💼 Professional Service Sections with detailed descriptions",
-    "📱 Fully Responsive Design for mobile and desktop",
-    "📊 Interactive Consultation Booking Form",
-    "✨ Smooth Animations and Transitions",
-    "📍 Contact Info with structured layout",
-    "📬 Functional contact form for client inquiries",
-    "🔗 Quick Navigation Links in the footer",
-    "🎯 Call-to-Action Buttons (Book Consultation, Learn More)"
-  ],
-  technologies: [
-    "React.js", 
-    "CSS (custom styling)", 
-    "React Icons",
-    "Responsive Design",
-    "Theme Toggle Functionality",
-  ]
-}
-,
-    {
-  name: "Technology Services Landing Page",
-  deployedLink: "https://kk-computers.vercel.app/",
-  githubLink: "https://github.com/NalagamdinniRaju/Landing-Page-.git",
-  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621654/Screenshot_883_nkqrn6.png",
-  description: "KK Computers is a responsive React.js landing page for computer repair, design, and internet café services.",
-  features: [
-    "💻 Detailed service sections for Computer Repair, Graphic Design, and Internet Cafe",
-    "🕹️ Highlighted gaming and connectivity services in Internet Cafe section",
-    "🎨 Clean, modern UI design with responsive layout for all devices",
-    "📇 Structured Contact Form for easy communication",
-    "📚 About Us section showcasing company history and values",
-    "📞 Contact Info with integrated support and quick links",
-    "⚙️ Smooth scroll and navigation experience",
-    "🌐 Social links and copyright footer",
-    "🔍 Emphasis on company expertise, experience, and 24/7 support"
-  ],
-  technologies: [
-    "React.js", 
-    "CSS (custom styling)", 
-    "React Icons", 
-    "Responsive Design", 
-    "Basic Animations", 
-  
-  ]
-}
-,  {
+  {
       name: "Jobby App",
       deployedLink: "https://nrs.ccbp.tech/",
       githubLink: "",

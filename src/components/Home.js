@@ -305,7 +305,7 @@ const Home = () => {
             <Button 
              // href="https://drive.google.com/file/d/1HZu-XOFRsjm8p_e3wjSM749ENPd-BINw/view?usp=sharing"
               // href="https://drive.google.com/file/d/1Dmk9XfjM5tz4CZ5TTmDXb38AtaQ7sjKA/view?usp=drive_link"
-              href="https://drive.google.com/file/d/16xTSedADXRXQZAp_hyN-WJiZvje0lbhJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               primary
@@ -320,7 +320,7 @@ const Home = () => {
         <ImageContainer>
                
 
-          <img src="https://res.cloudinary.com/dmbkkv5ko/image/upload/v1759509253/Basavaraju_Photo_nviyqe.jpg" alt="Raju Nalagamdinne" />
+          <img src="https://res.cloudinary.com/dwqg5r6wl/image/upload/v1760443571/Basavaraju_Photo_head_v4bani.jpg" alt="Raju Nalagamdinne" />
         </ImageContainer>
       </ContentWrapper>
     </HomeContainer>
