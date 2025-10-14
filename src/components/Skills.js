@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaPython, FaDatabase, FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiMongodb, SiExpress,SiBootstrap } from 'react-icons/si';
+import { SiMongodb, SiExpress, SiBootstrap, SiFirebase } from 'react-icons/si';
 import styled, { keyframes } from 'styled-components';
 
 const skills = [
@@ -14,6 +14,7 @@ const skills = [
   { name: 'Express', icon: SiExpress, color: '#ffffff',},
   { name: 'SQL', icon: FaDatabase, color: '#4479A1', },
   { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3', },
+  { name: 'Firebase', icon: SiFirebase, color: '#FFCA28', },
 ];
 
 const Container = styled.section`
@@ -77,84 +78,43 @@ const Title = styled.h2`
   }
 `;
 
-const scroll = keyframes`
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-300px * ${skills.length / 2}));
+// Static grid instead of animated track
+const SkillsGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, minmax(140px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: 900px; /* fits 3 columns nicely */
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    max-width: 600px;
   }
 `;
 
-const SkillsTrack = styled.div`
-  display: flex;
-  width: calc(300px * ${skills.length});
-  animation: ${scroll} 40s linear infinite;
-  opacity: 0.9;
-
-  &:hover {
-    animation-play-state: paused;
-    opacity: 1;
-  }
-`;
-
-const float = keyframes`
-  0%, 100% {
-    transform: translateY(0) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-10px) rotate(2deg);
-  }
-`;
-
-const shine = keyframes`
-  0% {
-    background-position: -100% 100%;
-  }
-  100% {
-    background-position: 200% -100%;
-  }
-`;
+// Removed floating/shine animations for instant visibility
 
 const SkillCard = styled.div`
-  flex: 0 0 250px;
-  height: 280px;
-  margin: 0 25px;
+  flex: 0 0 auto;
+  min-height: 160px;
+  margin: 0;
   background: rgba(17, 34, 64, 0.6);
   border-radius: 20px;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
   border: 2px solid transparent;
-  background-image: linear-gradient(
-    45deg,
-    transparent 25%,
-    rgba(100, 255, 218, 0.1) 50%,
-    transparent 75%
-  );
-  background-size: 200% 200%;
-  animation: ${float} 6s ease-in-out infinite;
-  animation-delay: ${props => props.$index * 0.2}s;
+  background-image: none;
 
   &:hover {
-    transform: translateY(-15px) scale(1.05);
     border-color: rgba(100, 255, 218, 0.5);
-    background-color: rgba(17, 34, 64, 0.9);
-    animation: ${shine} 1.5s linear infinite;
-    
-    .icon {
-      transform: scale(1.2) rotate(360deg);
-    }
-
-    .level {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    background-color: rgba(17, 34, 64, 0.8);
   }
 
   &::before {
@@ -176,20 +136,13 @@ const SkillCard = styled.div`
   }
 `;
 
-const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
+// Removed rotate animation
 
 const SkillIcon = styled.div`
-  font-size: 5rem;
+  font-size: 3rem;
   color: ${props => props.color};
   margin-bottom: 1.5rem;
-  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: none;
   position: relative;
   
   &::after {
@@ -205,11 +158,7 @@ const SkillIcon = styled.div`
     z-index: -1;
   }
 
-  &.icon {
-    &:hover {
-      animation: ${rotate} 2s linear infinite;
-    }
-  }
+  &.icon {}
 `;
 
 const SkillName = styled.h3`
@@ -220,48 +169,13 @@ const SkillName = styled.h3`
   text-align: center;
 `;
 
-const SkillLevel = styled.span`
-  font-size: 0.9rem;
-  color: #64ffda;
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  background: rgba(100, 255, 218, 0.1);
-  border: 1px solid rgba(100, 255, 218, 0.3);
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.3s ease;
-  margin-top: 1rem;
-
-  &.level {
-    transition-delay: 0.1s;
-  }
-`;
+// Removed hidden level animation
 
 const SkillsContainer = styled.div`
   position: relative;
-  overflow: hidden;
-  padding: 2rem 0;
-  margin: 2rem 0;
-  
-  &::before, &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 200px;
-    z-index: 2;
-    pointer-events: none;
-  }
-
-  &::before {
-    left: 0;
-    background: transparent;
-  }
-
-  &::after {
-    right: 0;
-    background: transparent;
-  }
+  overflow: visible;
+  padding: 1rem 0;
+  margin: 1rem 0;
 `;
 
 const Skills = () => {
@@ -269,16 +183,16 @@ const Skills = () => {
     <Container>
       <Title>Technical Expertise</Title>
       <SkillsContainer>
-        <SkillsTrack>
-          {[...skills, ...skills].map((skill, index) => (
-            <SkillCard key={index} $index={index}>
+        <SkillsGrid>
+          {skills.slice(0, 9).map((skill, index) => (
+            <SkillCard key={index}>
               <SkillIcon color={skill.color} className="icon">
                 {React.createElement(skill.icon)}
               </SkillIcon>
               <SkillName>{skill.name}</SkillName>
             </SkillCard>
           ))}
-        </SkillsTrack>
+        </SkillsGrid>
       </SkillsContainer>
     </Container>
   );

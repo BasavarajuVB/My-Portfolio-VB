@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
-import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaPaperPlane, FaCheckCircle, FaTimesCircle, FaTimes } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaPaperPlane, FaCheckCircle, FaTimesCircle, FaTimes, FaDownload, FaExternalLinkAlt } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 
 const fadeIn = keyframes`
@@ -16,14 +16,12 @@ const slideIn = keyframes`
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0rem 1.5rem;
+  padding: 0rem 1rem; /* balanced padding to not clip right border */
   background-color: transparent;
   animation: ${fadeIn} 0.5s ease-out;
 
   @media (max-width: 768px) {
     padding: 2rem 1rem;
-
-    padding-right:30px;
   }
 `;
 
@@ -55,10 +53,17 @@ const FormContainer = styled.div`
   border-radius: 1rem;
   overflow: hidden;
   backdrop-filter: blur(10px);
+  box-sizing: border-box;
 
   @media (min-width: 769px) {
     flex-direction: row;
     margin-right:20px;
+  }
+
+  @media (max-width: 768px) {
+    border: 1px solid rgba(100, 255, 218, 0.2);
+    border-radius: 1rem;
+    margin: 0 1rem; /* ensure right border is fully visible */
   }
 `;
 
@@ -100,6 +105,9 @@ const Input = styled.input`
   outline: none;
   transition: all 0.3s ease;
   width: 100%;
+  box-sizing: border-box; /* ensure right border stays visible */
+  display: block;
+  overflow: visible;
   font-size: 1rem;
 
   &:focus {
@@ -109,6 +117,7 @@ const Input = styled.input`
 
   @media (max-width: 768px) {
     padding: 0.875rem;
+    width: 90%; /* reduce width on mobile */
   }
 `;
 
@@ -123,6 +132,9 @@ const TextArea = styled.textarea`
   resize: vertical;
   min-height: 150px;
   width: 100%;
+  box-sizing: border-box; /* ensure right border stays visible */
+  display: block;
+  overflow: visible;
   font-size: 1rem;
 
   &:focus {
@@ -132,6 +144,7 @@ const TextArea = styled.textarea`
 
   @media (max-width: 768px) {
     min-height: 120px;
+    width: 90%; /* reduce width on mobile */
   }
 `;
 
@@ -166,6 +179,7 @@ const Button = styled.button`
     max-width: 100%;
     padding: 1rem;
     font-size: 1rem;
+    width: 90%; /* reduce width on mobile */
   }
 `;
 
@@ -184,7 +198,34 @@ const InfoSection = styled.div`
 
   @media (max-width: 768px) {
     padding: 1.5rem;
-    border-top: 1px solid rgba(100, 255, 218, 0.1);
+    border-top: 1px solid rgba(100, 255, 218, 0.1); /* inner separator, outer border remains on wrapper */
+  }
+`;
+
+const ResumeActions = styled.div`
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+`;
+
+const ResumeLink = styled.a`
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  background-color: transparent;
+  color: #64ffda;
+  font-weight: bold;
+  border: 1px solid #64ffda;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    transform: translateY(-2px);
   }
 `;
 
@@ -413,6 +454,11 @@ const Contact = () => {
               </a>
             </InfoItem>
           </InfoList>
+          <ResumeActions>
+            <ResumeLink href="https://drive.usercontent.google.com/u/0/uc?id=1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8&export=download" download>
+              <FaDownload /> Download Resume
+            </ResumeLink>
+          </ResumeActions>
         </InfoSection>
       </FormContainer>
       {status && (

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
-import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaGithub, FaDownload } from 'react-icons/fa';
 
 const projectCategories = {
   fullStack: [
@@ -402,30 +402,6 @@ const projectCategories = {
   ],
   backend: [
     {
-      name: "Personal Expense Tracker API",
-      deployedLink: "https://github.com/NalagamdinniRaju/personal-expense-tracker.git",
-      githubLink: "https://github.com/NalagamdinniRaju/personal-expense-tracker.git",
-      image: "https://img.freepik.com/premium-photo/project-planning-software-modish-business-project-management_31965-340611.jpg?", // Financial tracking themed image
-      description: "Comprehensive RESTful API for personal financial management with advanced tracking and reporting capabilities.",
-      features: [
-        "Secure user authentication with JWT",
-        "Transaction management across income and expenses",
-        "Detailed financial reporting and analytics",
-        "Category-based transaction organization",
-        "Robust database schema with SQLite",
-        "Comprehensive API endpoints for financial tracking"
-      ],
-      technologies: [
-        "Node.js", 
-        "Express", 
-        "SQLite3", 
-        "JWT", 
-        "Bcrypt", 
-        "Express Validator",
-        "REST API"
-      ],
-    },
-    {
       name: "Task Management Backend",
       deployedLink: "https://github.com/NalagamdinniRaju/Task-Management-.git",
       githubLink: "https://github.com/NalagamdinniRaju/Task-Management-.git",
@@ -470,29 +446,7 @@ const projectCategories = {
         "JavaScript ES6",
         "REST API"
       ],
-    },
-      {
-        name: "Player Match Scores API",
-        deployedLink: "", // Add the deployed link if available
-        githubLink: "https://github.com/NalagamdinniRaju/Player-Match-Scores-API.git",
-        image: "https://img.freepik.com/free-vector/gradient-football-position-chart-infographic-design_23-2149555342.jpg?", // Add a relevant image link if desired
-        description: "Developed a Node.js API for managing player match scores using Express.js and SQLite.",
-        features: [
-          "GET API for listing all players",
-          "GET API for fetching specific player details by player ID",
-          "PUT API for updating player details",
-          "GET API for fetching specific match details",
-          "GET API for fetching all matches of a player",
-          "GET API for fetching all players of a match",
-          "GET API for fetching player's match statistics (total score, fours, sixes)"
-        ],
-        technologies: [
-          "Node.js",
-          "Express.js",
-          "SQLite",
-          "CommonJS"
-        ]
-      }
+    }
     
     
     
@@ -581,9 +535,6 @@ const ProjectCard = styled.article`
   backdrop-filter: blur(10px);
   border: 1px solid rgba(100, 255, 218, 0.1);
   transition: all 0.4s ease-in-out;
-  animation: ${fadeIn} 0.6s ease-out forwards;
-  animation-delay: ${props => props.$index * 0.2}s;
-  opacity: 0;
   height: 420px; // Reduced height
   display: flex;
   flex-direction: column;
@@ -593,6 +544,14 @@ const ProjectCard = styled.article`
     border-color: rgba(100, 255, 218, 0.3);
     box-shadow: 0 8px 25px -12px rgba(100, 255, 218, 0.2);
   }
+`;
+
+const ResumeBar = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1200px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
 `;
 
 const ProjectImage = styled.div`
@@ -751,6 +710,7 @@ const Projects = () => {
   return (
     <Container>
       <SectionTitle>Featured Projects</SectionTitle>
+      
       <ProjectNavigation>
         <NavButton 
           $active={activeCategory === 'fullStack'}
