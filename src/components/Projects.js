@@ -51,18 +51,23 @@ const projectCategories = {
     technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
   },    
     {
-      name: "Nxt Trendz (E-Commerce Clone)",
+      name: "Trendz-Buy",
       deployedLink: "https://nxttrendzrts.ccbp.tech/",
       githubLink: "https://github.com/raviteja-salva/nxt_trendz_website",
       image: "https://th.bing.com/th/id/R.82ba779360b50f5c461e8592fb7473d1?rik=RcI3k0vhEbR%2fpg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fe-commerce-png-sell-your-products-and-services-online-1000.png&ehk=LZ2GD%2fGQ98UUOsXo6cKf4wz84A1wac5zM6LprYBb79A%3d&risl=&pid=ImgRaw&r=0",
-      // description: "A secure, modern e-commerce platform inspired by Amazon and Flipkart, built with React JS.",
+      //description: "A comprehensive e-commerce platform inspired by Amazon and Flipkart, featuring secure authentication, product browsing, and shopping cart functionality with modern React architecture.",
+      description: "A secure, modern e-commerce platform inspired by Amazon and Flipkart, built with React JS.",
       features: [
         "JWT authentication for secure user sessions",
         "REST API integration for dynamic product data",
         "Responsive design for seamless mobile and desktop experience",
         "Product search, filtering, and sorting functionalities",
+        "Shopping cart management with add/remove items",
+        "User profile management and order history",
+        "Category-based product browsing",
+        "Real-time product availability updates"
       ],
-      technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT"],
+      technologies: ["React JS", "Node.js", "Express", "MongoDB"],
       credentials: { username: "raja", password: "raja@2021" }
     },
     {

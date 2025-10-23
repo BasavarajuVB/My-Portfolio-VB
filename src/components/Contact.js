@@ -455,9 +455,13 @@ const Contact = () => {
             </InfoItem>
           </InfoList>
           <ResumeActions>
-            <ResumeLink href="https://drive.usercontent.google.com/u/0/uc?id=1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8&export=download" download>
+            <ResumeLink 
+              href="https://drive.usercontent.google.com/u/0/uc?id=1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8&export=download" 
+              download="Basavaraju_VB_Resume.pdf"
+            >
               <FaDownload /> Download Resume
             </ResumeLink>
+            
           </ResumeActions>
         </InfoSection>
       </FormContainer>

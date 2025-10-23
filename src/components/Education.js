@@ -74,11 +74,11 @@ const Timeline = styled.div`
 
 const TimelineItem = styled.div`
   display: flex;
-  justify-content: ${props => props.isEven ? 'flex-start' : 'flex-end'};
+  justify-content: ${props => props.$isEven ? 'flex-start' : 'flex-end'};
   padding: 2rem 0;
   width: 100%;
   animation: fadeIn 0.6s ease-out forwards;
-  animation-delay: ${props => props.index * 0.2}s;
+  animation-delay: ${props => props.$index * 0.2}s;
   opacity: 0;
   
   @media (max-width: 768px) {
@@ -119,7 +119,7 @@ const Card = styled.div`
     background: #64ffda;
     border-radius: 50%;
     top: 50%;
-    ${props => props.isEven ? 'right: -48px' : 'left: -48px'};
+    ${props => props.$isEven ? 'right: -48px' : 'left: -48px'};
     transform: translateY(-50%);
     border: 3px solid #1e293b;
     z-index: 1;
@@ -275,8 +275,8 @@ const Education = () => {
         <Title>Educational Background</Title>
         <Timeline>
           {educationData.map((edu, index) => (
-            <TimelineItem key={index} isEven={index % 2 === 0} index={index}>
-              <Card isEven={index % 2 === 0}>
+            <TimelineItem key={index} $isEven={index % 2 === 0} $index={index}>
+              <Card $isEven={index % 2 === 0}>
                 {edu.current && <StatusBadge>Current</StatusBadge>}
                 <DegreeTitle>{edu.degree}</DegreeTitle>
                 <Institution>{edu.institution}</Institution>

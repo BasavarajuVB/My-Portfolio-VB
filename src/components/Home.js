@@ -303,7 +303,7 @@ const Home = () => {
           </TechStack>
           <ButtonContainer>
             <Button 
-              href="https://drive.usercontent.google.com/u/0/uc?id=1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8&export=download"
+              href="https://drive.google.com/file/d/1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8/view"
               target="_blank"
               rel="noopener noreferrer"
               primary
