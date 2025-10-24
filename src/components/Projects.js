@@ -54,7 +54,7 @@ const projectCategories = {
       name: "Trendz-Buy",
       deployedLink: "https://nxttrendzrts.ccbp.tech/",
       githubLink: "https://github.com/raviteja-salva/nxt_trendz_website",
-      image: "https://th.bing.com/th/id/R.82ba779360b50f5c461e8592fb7473d1?rik=RcI3k0vhEbR%2fpg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fe-commerce-png-sell-your-products-and-services-online-1000.png&ehk=LZ2GD%2fGQ98UUOsXo6cKf4wz84A1wac5zM6LprYBb79A%3d&risl=&pid=ImgRaw&r=0",
+      image: "https://img.freepik.com/free-vector/ecommerce-web-page-concept-illustration_114360-8204.jpg",
       //description: "A comprehensive e-commerce platform inspired by Amazon and Flipkart, featuring secure authentication, product browsing, and shopping cart functionality with modern React architecture.",
       description: "A secure, modern e-commerce platform inspired by Amazon and Flipkart, built with React JS.",
       features: [

@@ -307,6 +307,18 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               primary
+              onClick={(e) => {
+                e.preventDefault();
+                // Open Google Drive in new tab
+                window.open('https://drive.google.com/file/d/1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8/view', '_blank');
+                // Also trigger download
+                const link = document.createElement('a');
+                link.href = 'https://drive.usercontent.google.com/u/0/uc?id=1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8&export=download';
+                link.download = 'Basavaraju_VB_Resume.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
             >
               View Resume <FaArrowRight />
             </Button>
