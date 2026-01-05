@@ -718,7 +718,7 @@ const Projects = () => {
 
       <ResumeBar>
         <LinkButton
-          href="https://drive.google.com/uc?export=download&id=1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu"
+          href="https://drive.google.com/file/d/1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           $primary

@@ -291,29 +291,29 @@ const Home = () => {
           <Title>Basavaraju VB</Title>
           <Subtitle>Full Stack Developer & Problem Solver</Subtitle>
           <Description>
-            I'm a passionate developer focused on creating <strong>exceptional digital experiences</strong>. 
-            Specializing in building robust, scalable web applications using modern technologies. 
-            With expertise in both frontend and backend development, I transform complex problems into 
+            I'm a passionate developer focused on creating <strong>exceptional digital experiences</strong>.
+            Specializing in building robust, scalable web applications using modern technologies.
+            With expertise in both frontend and backend development, I transform complex problems into
             elegant solutions that prioritize <strong>user experience</strong> and <strong>performance</strong>.
           </Description>
           <TechStack>
-            <div><FaCode/>Full Stack Developer</div>
+            <div><FaCode />Full Stack Developer</div>
             <div><FaCode /> Frontend Developer</div>
             <div><FaServer /> Backend Developer</div>
           </TechStack>
           <ButtonContainer>
-            <Button 
-              href="https://drive.google.com/file/d/1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8/view"
+            <Button
+              href="https://drive.google.com/file/d/1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               primary
               onClick={(e) => {
                 e.preventDefault();
                 // Open Google Drive in new tab
-                window.open('https://drive.google.com/file/d/1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8/view', '_blank');
+                window.open('https://drive.google.com/file/d/1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu/view?usp=sharing', '_blank');
                 // Also trigger download
                 const link = document.createElement('a');
-                link.href = 'https://drive.usercontent.google.com/u/0/uc?id=1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8&export=download';
+                link.href = 'https://drive.usercontent.google.com/u/0/uc?id=1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu&export=download';
                 link.download = 'Basavaraju_VB_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();
@@ -328,7 +328,7 @@ const Home = () => {
           </ButtonContainer>
         </TextSection>
         <ImageContainer>
-               
+
 
           <img src="https://res.cloudinary.com/dwqg5r6wl/image/upload/v1760443571/Basavaraju_Photo_head_v4bani.jpg" alt="Raju Nalagamdinne" />
         </ImageContainer>
@@ -338,4 +338,4 @@ const Home = () => {
 };
 
 export default Home;
-  // https://res.cloudinary.com/dwiq4s5ut/image/upload/v1732218444/Profile_pic_jdz5zm.jpg
+// https://res.cloudinary.com/dwiq4s5ut/image/upload/v1732218444/Profile_pic_jdz5zm.jpg

@@ -456,17 +456,17 @@ const Contact = () => {
           </InfoList>
           <ResumeActions>
             <ResumeLink 
-              href="https://drive.usercontent.google.com/u/0/uc?id=1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8&export=download" 
+              href="https://drive.usercontent.google.com/u/0/uc?id=1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu&export=download" 
               download="Basavaraju_VB_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => {
                 e.preventDefault();
                 // Open Google Drive in new tab
-                window.open('https://drive.google.com/file/d/1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8/view', '_blank');
+                window.open('https://drive.google.com/file/d/1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu/view?usp=sharing', '_blank');
                 // Also trigger download
                 const link = document.createElement('a');
-                link.href = 'https://drive.usercontent.google.com/u/0/uc?id=1tBmK3M7ag0Ux-KXpDGnuSgVK8njIG_K8&export=download';
+                link.href = 'https://drive.usercontent.google.com/u/0/uc?id=1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu&export=download';
                 link.download = 'Basavaraju_VB_Resume.pdf';
                 document.body.appendChild(link);
                 link.click();
