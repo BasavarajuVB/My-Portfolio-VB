@@ -5,51 +5,51 @@ import { FaExternalLinkAlt, FaGithub, FaDownload } from 'react-icons/fa';
 
 const projectCategories = {
   fullStack: [
-   
-  //   {
-  //     name: "Food Delivery App",
-  //     deployedLink: "https://nrs-food-delivery-frontend.vercel.app/",
-  //     githubLink: "https://github.com/NalagamdinniRaju/Food-Delivery-App.git",
-  //     image: "https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303524.jpg?",  // Food delivery themed image
-  //     description: "A comprehensive full-stack food delivery platform with secure authentication, shopping cart, and online payments.",
-  //     features: [
-  //       "User registration and authentication with JWT",
-  //       "Stripe integration for secure online payments",
-  //       "Dynamic food menu browsing",
-  //       "Real-time order tracking",
-  //       "Admin panel for menu and order management"
-  //     ],
-  //     technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "Stripe", "REST API"]
-  //   },
-  //     {
-  //   name: "Hospital Food Delivery Management System",
-  //   deployedLink: "https://hospital-food-management-nrajus-projects.vercel.app/",
-  //   githubLink: "https://github.com/NalagamdinniRaju/Hospital-Food-Management.git",
-  //   image: "https://img.freepik.com/premium-photo/nurse-medical-coat-is-holding-tray-with-breakfast_179755-5329.jpg?",
-  //   description: "A full-stack application for managing hospital meal deliveries, patient diets, and real-time order tracking.",
-  //   features: [
-  //     "Role-based dashboards for hospital managers, pantry staff, and delivery personnel",
-  //     "Real-time meal tracking with WebSocket integration",
-  //     "Secure authentication with JWT",
-  //     "Admin panel for meal and order management"
-  //   ],
-  //   technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "WebSocket"]
-  // },
-  {
-    name: "School Payment Management System",
-    deployedLink: "https://manage-school-payments.netlify.app/",
-    githubLink: "https://github.com/NalagamdinniRaju/School_Payment_Management.git",
-    image: "https://img.freepik.com/premium-photo/woman-bar-paying-using-contactless-credit-card-she-is-leaning-it-pos-teminal-payments-technology-concept_1049504-637.jpg?", // Professional recruitment image
-    description: "A comprehensive school payment management system to streamline transaction tracking and management.",
-    features: [
-      "JWT-based authentication",
-      "Real-time transaction tracking",
-      "CSV data import",
-      "Advanced search and filtering functionalities",
-      "Dynamic transaction status updates"
-    ],
-    technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
-  },    
+
+    //   {
+    //     name: "Food Delivery App",
+    //     deployedLink: "https://nrs-food-delivery-frontend.vercel.app/",
+    //     githubLink: "https://github.com/NalagamdinniRaju/Food-Delivery-App.git",
+    //     image: "https://img.freepik.com/free-photo/people-taking-photos-food_23-2149303524.jpg?",  // Food delivery themed image
+    //     description: "A comprehensive full-stack food delivery platform with secure authentication, shopping cart, and online payments.",
+    //     features: [
+    //       "User registration and authentication with JWT",
+    //       "Stripe integration for secure online payments",
+    //       "Dynamic food menu browsing",
+    //       "Real-time order tracking",
+    //       "Admin panel for menu and order management"
+    //     ],
+    //     technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "Stripe", "REST API"]
+    //   },
+    //     {
+    //   name: "Hospital Food Delivery Management System",
+    //   deployedLink: "https://hospital-food-management-nrajus-projects.vercel.app/",
+    //   githubLink: "https://github.com/NalagamdinniRaju/Hospital-Food-Management.git",
+    //   image: "https://img.freepik.com/premium-photo/nurse-medical-coat-is-holding-tray-with-breakfast_179755-5329.jpg?",
+    //   description: "A full-stack application for managing hospital meal deliveries, patient diets, and real-time order tracking.",
+    //   features: [
+    //     "Role-based dashboards for hospital managers, pantry staff, and delivery personnel",
+    //     "Real-time meal tracking with WebSocket integration",
+    //     "Secure authentication with JWT",
+    //     "Admin panel for meal and order management"
+    //   ],
+    //   technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "WebSocket"]
+    // },
+    {
+      name: "School Payment Management System",
+      deployedLink: "https://manage-school-payments.netlify.app/",
+      githubLink: "https://github.com/NalagamdinniRaju/School_Payment_Management.git",
+      image: "https://img.freepik.com/premium-photo/woman-bar-paying-using-contactless-credit-card-she-is-leaning-it-pos-teminal-payments-technology-concept_1049504-637.jpg?", // Professional recruitment image
+      description: "A comprehensive school payment management system to streamline transaction tracking and management.",
+      features: [
+        "JWT-based authentication",
+        "Real-time transaction tracking",
+        "CSV data import",
+        "Advanced search and filtering functionalities",
+        "Dynamic transaction status updates"
+      ],
+      technologies: ["React JS", "Node.js", "Express", "MongoDB", "JWT", "REST API"]
+    },
     {
       name: "Trendz-Buy",
       deployedLink: "https://nxttrendzrts.ccbp.tech/",
@@ -84,12 +84,12 @@ const projectCategories = {
         "Mobile-responsive dashboard"
       ],
       technologies: [
-        "React JS", 
-        "Node.js", 
-        "Express", 
-        "MongoDB", 
-        "JWT", 
-"Nodemailer",
+        "React JS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "Nodemailer",
         "REST API"
       ],
     },
@@ -108,48 +108,48 @@ const projectCategories = {
         "Task statistics and productivity insights"
       ],
       technologies: [
-        "React JS", 
-        "Node.js", 
-        "Express", 
-        "MongoDB", 
-        "JWT", 
+        "React JS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
         "REST API"
       ],
-   
+
     },
-      {
-        "name": "User Management System",
-        "deployedLink": "https://user-management-system-frontend-rho.vercel.app/",
-        "githubLink": "https://github.com/NalagamdinniRaju/User-Management-System-.git",
-        "image": "https://img.freepik.com/free-vector/admin-dashboard-concept-illustration_114360-805.jpg",
-        "description": "A full-stack User Management Application enabling efficient management of user records...",
-        "features": [
-          "Frontend Features:",
-          "🔍 Advanced Search Functionality",
-          "📄 Pagination for user listing",
-          "🖊️ User Creation and Editing",
-          "🗑️ User Deletion",
-          "📱 Responsive Design",
-          "🚨 Form Validation with real-time feedback",
-          "🔔 Toast Notifications for status updates",
-          "Backend Features:",
-          "💾 SQLite Database Integration for user data",
-          "🔒 Unique Email Constraint for data integrity",
-          "📊 Paginated User Retrieval for efficient data access",
-          "🛡️ Robust Error Handling mechanisms"
-        ],
-        "technologies": [
-          "Frontend:",
-          "React",
-    
-          "CSS (Custom Styling)",
-          "Backend:",
-          "Express.js",
-          "SQLite3",
-        
-          "Node.js"
-        ]
-      },
+    {
+      "name": "User Management System",
+      "deployedLink": "https://user-management-system-frontend-rho.vercel.app/",
+      "githubLink": "https://github.com/NalagamdinniRaju/User-Management-System-.git",
+      "image": "https://img.freepik.com/free-vector/admin-dashboard-concept-illustration_114360-805.jpg",
+      "description": "A full-stack User Management Application enabling efficient management of user records...",
+      "features": [
+        "Frontend Features:",
+        "🔍 Advanced Search Functionality",
+        "📄 Pagination for user listing",
+        "🖊️ User Creation and Editing",
+        "🗑️ User Deletion",
+        "📱 Responsive Design",
+        "🚨 Form Validation with real-time feedback",
+        "🔔 Toast Notifications for status updates",
+        "Backend Features:",
+        "💾 SQLite Database Integration for user data",
+        "🔒 Unique Email Constraint for data integrity",
+        "📊 Paginated User Retrieval for efficient data access",
+        "🛡️ Robust Error Handling mechanisms"
+      ],
+      "technologies": [
+        "Frontend:",
+        "React",
+
+        "CSS (Custom Styling)",
+        "Backend:",
+        "Express.js",
+        "SQLite3",
+
+        "Node.js"
+      ]
+    },
     {
       name: "Personal Notes Manager",
       deployedLink: "https://personal-notes-manager-eta.vercel.app/",
@@ -172,80 +172,80 @@ const projectCategories = {
         "React Toastify",
         "REST API"
       ],
-    
+
     }
-      
-    
-    
+
+
+
 
   ],
   frontend: [
     {
-  name: "Modern Task Management System",
-  deployedLink: "https://task-management-nrs.vercel.app/",
-  githubLink: "https://github.com/NalagamdinniRaju/Task-Management.git",
-  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1738104172/Screenshot_748_k9dqsc.png", // Updated image link
-  description:" A modern task management app in React with Kanban-style organization and drag-and-drop functionality.",
-  features: [
-    "Kanban-style task organization with three columns",
-    "Drag-and-drop task movement",
-    "Real-time task counting and visual progress tracking",
-    "Dark/Light theme toggle with modern UI",
-    "Priority color coding and due date scheduling",
-    "Toast notifications for task operations",
-    "Local storage persistence with auto-save",
-    "Responsive design across devices"
-  ],
-  technologies: [
-    "React.js", "Context API", "CSS Modules", 
-    "Framer Motion", "React Hot Toast", 
-    "React Icons", "LocalStorage API", 
-    "CSS Custom Properties"
-  ]
-}
-,
-{
-  name: "Telegram Mini App - Web3 Platform",
-  deployedLink: "https://telegram-mini-app-lyart-one.vercel.app/",
-  githubLink: "https://github.com/BasavarajuVB/Telegram-Mini-App",
-  image: "https://img.freepik.com/free-vector/telegram-bot-concept-illustration_114360-1551.jpg?",
-  description: "Developed a Telegram mini application using React JS, seamlessly integrated walletes",
-  features: [
-    "Telegram WebApp integration",
-    "Web3 wallet integration (WalletConnect/TON)",
-    "Crypto-based referrals",
-    "Real-time transaction notifications",
-    "Firebase-backed data flows"
-  ],
-  technologies: [
-    "React", "JavaScript", "CSS", "Firebase",
-    "Tailwind CSS", "Web3", "TON/WalletConnect",
-    "Canvas", "React Icons"
-  ]
-}
-,
-{
-  name: "User Management Application",
-  deployedLink: "https://user-management-dashboard-nrs.vercel.app/",
-  githubLink: "https://github.com/NalagamdinniRaju/User-Management-Dashboard-.git",
-  image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621166/Screenshot_881_kl4qp5.png",
-  description: "A user-friendly React app for managing user details",
-  features: [
-    "👤 User CRUD Operations (View, Add, Edit, Delete)",
-    "🌐 API integration with JSONPlaceholder (GET, POST, PUT, DELETE)",
-    "🔍 Real-time Search by Name or Email",
-    "📊 Pagination for large user datasets",
-    "📝 Client-side Form Validation",
-    "📄 Download user info as styled PDF with jsPDF",
-    
-  ],
-  technologies: [
-    "React.js", "Tailwind CSS", "Axios",
-    "react-toastify", "jsPDF", "JSONPlaceholder"
-  ]
-}
-,
-  {
+      name: "Modern Task Management System",
+      deployedLink: "https://task-management-nrs.vercel.app/",
+      githubLink: "https://github.com/NalagamdinniRaju/Task-Management.git",
+      image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1738104172/Screenshot_748_k9dqsc.png", // Updated image link
+      description: " A modern task management app in React with Kanban-style organization and drag-and-drop functionality.",
+      features: [
+        "Kanban-style task organization with three columns",
+        "Drag-and-drop task movement",
+        "Real-time task counting and visual progress tracking",
+        "Dark/Light theme toggle with modern UI",
+        "Priority color coding and due date scheduling",
+        "Toast notifications for task operations",
+        "Local storage persistence with auto-save",
+        "Responsive design across devices"
+      ],
+      technologies: [
+        "React.js", "Context API", "CSS Modules",
+        "Framer Motion", "React Hot Toast",
+        "React Icons", "LocalStorage API",
+        "CSS Custom Properties"
+      ]
+    }
+    ,
+    {
+      name: "Telegram Mini App - Web3 Platform",
+      deployedLink: "https://telegram-mini-app-lyart-one.vercel.app/",
+      githubLink: "https://github.com/BasavarajuVB/Telegram-Mini-App",
+      image: "https://img.freepik.com/free-vector/telegram-bot-concept-illustration_114360-1551.jpg?",
+      description: "Developed a Telegram mini application using React JS, seamlessly integrated walletes",
+      features: [
+        "Telegram WebApp integration",
+        "Web3 wallet integration (WalletConnect/TON)",
+        "Crypto-based referrals",
+        "Real-time transaction notifications",
+        "Firebase-backed data flows"
+      ],
+      technologies: [
+        "React", "JavaScript", "CSS", "Firebase",
+        "Tailwind CSS", "Web3", "TON/WalletConnect",
+        "Canvas", "React Icons"
+      ]
+    }
+    ,
+    {
+      name: "User Management Application",
+      deployedLink: "https://user-management-dashboard-nrs.vercel.app/",
+      githubLink: "https://github.com/NalagamdinniRaju/User-Management-Dashboard-.git",
+      image: "https://res.cloudinary.com/dwiq4s5ut/image/upload/v1744621166/Screenshot_881_kl4qp5.png",
+      description: "A user-friendly React app for managing user details",
+      features: [
+        "👤 User CRUD Operations (View, Add, Edit, Delete)",
+        "🌐 API integration with JSONPlaceholder (GET, POST, PUT, DELETE)",
+        "🔍 Real-time Search by Name or Email",
+        "📊 Pagination for large user datasets",
+        "📝 Client-side Form Validation",
+        "📄 Download user info as styled PDF with jsPDF",
+
+      ],
+      technologies: [
+        "React.js", "Tailwind CSS", "Axios",
+        "react-toastify", "jsPDF", "JSONPlaceholder"
+      ]
+    }
+    ,
+    {
       name: "Jobby App",
       deployedLink: "https://nrs.ccbp.tech/",
       githubLink: "",
@@ -260,7 +260,7 @@ const projectCategories = {
       credentials: { username: "raja", password: "raja@2021" }
 
     },
-   
+
     {
       name: "Quick Todo Application",
       deployedLink: "https://nrs-task-tracker.vercel.app/",
@@ -274,7 +274,7 @@ const projectCategories = {
       ],
       technologies: ["React JS", "JavaScript", "CSS", "Local Storage"]
     },
-  
+
     {
       name: "Memory Match Game",
       deployedLink: "https://nrsmatchgame.ccbp.tech/",
@@ -283,15 +283,15 @@ const projectCategories = {
       description: "Interactive memory matching game with time-based challenge and scoring mechanism.",
       features: [
         "One-minute time limit",
-        "Point-based scoring system", 
+        "Point-based scoring system",
         "Dynamic image matching gameplay",
         "Real-time score tracking",
         "Responsive design"
       ],
       technologies: [
-        "React JS", 
-        "JavaScript", 
-        "CSS", 
+        "React JS",
+        "JavaScript",
+        "CSS",
         "HTML"
       ]
     },
@@ -309,9 +309,9 @@ const projectCategories = {
         "Responsive design"
       ],
       technologies: [
-        "React JS", 
-        "JavaScript", 
-        "CSS", 
+        "React JS",
+        "JavaScript",
+        "CSS",
         "HTML"
       ]
     },
@@ -329,10 +329,10 @@ const projectCategories = {
         "Responsive design"
       ],
       technologies: [
-        "React JS", 
-        "React Router", 
-        "JavaScript", 
-        "CSS", 
+        "React JS",
+        "React Router",
+        "JavaScript",
+        "CSS",
         "REST API"
       ]
     },
@@ -378,7 +378,7 @@ const projectCategories = {
       "name": "Wikipedia",
       "deployedLink": "https://nrswikipidia.ccbp.tech/",
       "githubLink": "https://github.com/<your-github-repo-link>",
-      "image": "https://img.freepik.com/premium-vector/search-concept-with-icon-design_24911-17929.jpg?w=740",  
+      "image": "https://img.freepik.com/premium-vector/search-concept-with-icon-design_24911-17929.jpg?w=740",
       "description": "A dynamic Wikipedia-like application providing easy access to curated information through an intuitive interface.",
       "features": [
         "Search and retrieve detailed articles using an API",
@@ -401,9 +401,9 @@ const projectCategories = {
       ],
       "technologies": ["HTML", "CSS", "JavaScript"]
     }
-    
-    
- 
+
+
+
   ],
   backend: [
     {
@@ -421,12 +421,12 @@ const projectCategories = {
         "Comprehensive API testing suite"
       ],
       technologies: [
-        "Node.js", 
-        "Express", 
-        "SQLite", 
-        "JWT", 
-        "Bcrypt", 
-        "Jest", 
+        "Node.js",
+        "Express",
+        "SQLite",
+        "JWT",
+        "Bcrypt",
+        "Jest",
         "Supertest",
         "REST API"
       ],
@@ -445,16 +445,16 @@ const projectCategories = {
         "Automated product value tracking"
       ],
       technologies: [
-        "Node.js", 
-        "Express", 
-        "SQLite", 
+        "Node.js",
+        "Express",
+        "SQLite",
         "JavaScript ES6",
         "REST API"
       ],
     }
-    
-    
-    
+
+
+
   ]
 };
 
@@ -663,12 +663,12 @@ const Projects = () => {
 
   const renderProjects = (category) => {
     const categoryProjects = projectCategories[category];
-    
+
     return (
       <ProjectsGrid>
         {categoryProjects.map((project, index) => (
           <ProjectCard key={index} $index={index}>
-           <ProjectImage>
+            <ProjectImage>
               <img src={project.image} alt={project.name} />
             </ProjectImage>
             <ProjectContent>
@@ -705,7 +705,7 @@ const Projects = () => {
                   <FaGithub /> Code
                 </LinkButton>
               </ProjectLinks>
-         
+
             </ProjectContent>          </ProjectCard>
         ))}
       </ProjectsGrid>
@@ -715,21 +715,32 @@ const Projects = () => {
   return (
     <Container>
       <SectionTitle>Featured Projects</SectionTitle>
-      
+
+      <ResumeBar>
+        <LinkButton
+          href="https://drive.google.com/uc?export=download&id=1-PHVUCEgpvx6DkjHxUMxVFqQstuVE3hu"
+          target="_blank"
+          rel="noopener noreferrer"
+          $primary
+        >
+          <FaDownload /> Download Resume
+        </LinkButton>
+      </ResumeBar>
+
       <ProjectNavigation>
-        <NavButton 
+        <NavButton
           $active={activeCategory === 'fullStack'}
           onClick={() => setActiveCategory('fullStack')}
         >
           Full Stack
         </NavButton>
-        <NavButton 
+        <NavButton
           $active={activeCategory === 'frontend'}
           onClick={() => setActiveCategory('frontend')}
         >
           Frontend
         </NavButton>
-        <NavButton 
+        <NavButton
           $active={activeCategory === 'backend'}
           onClick={() => setActiveCategory('backend')}
         >
